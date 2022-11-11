@@ -9,12 +9,20 @@ $black: #000000;
 $blue-stone: #005A5A;
 $teal: #008B8B;
 
+$electric-violet: #492FFF;
+$cardinal-pink: #7C0566;
+$fire-bush: #E4A62D;
+$lima: #7ABE19;
+$caribbean-green: #00DBA6;
+
+$custom-gradient: linear-gradient(81.37deg, $cardinal-pink 0%, $electric-violet 100%);
+
 $main: $teal;
 $accent: $blue-stone;
 
 
 // === Fonts ===
-$font-family-default: "Helvetica";
+$font-family-default: Poppins, Helvetica, Arial, sans-serif;
 
 // === Fonts sizes ===
 $font-size-normal: 16px;
