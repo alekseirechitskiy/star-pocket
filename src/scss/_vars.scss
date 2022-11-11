@@ -1,7 +1,9 @@
 //  === Screen widths  ===
 $screen-1280: "(min-width: 1280px)";
+$screen-1024: "(min-width: 1024px)";
 $screen-992: "(min-width: 992px)";
 $screen-768: "(min-width: 768px)";
+$screen-500: "(min-width: 500px)";
 $desktop: "(min-width: 1280px)";
 $tablet: "(min-width: 768px)";
 
@@ -10,6 +12,7 @@ $white: #ffffff;
 $black: #000000;
 $cod-gray: #141414;
 $santas-gray: #A5A4B6;
+$silver: #C1C1C1;
 $wild-sand: #F4F4F4;
 
 $electric-violet: #492FFF;
@@ -41,4 +44,4 @@ $line-height-extraSmall: 16px;
 
 
 // === Fonts colors  ===
-$text-main-color: $black;
+$text-main-color: $white;

@@ -1,1 +1,25 @@
-.button {}
+.button {
+  box-sizing: border-box;
+  padding: 0;
+  padding: 10px 24px;
+  border-radius: 30px;
+  font-size: 13px;
+  line-height: 13px;
+  color: $white;
+  text-decoration: none;
+  transition: opacity 0.3s;
+
+  @media #{$screen-500} {
+    padding: 13px 70px;
+    font-size: $font-size-large;
+    line-height: 170%;
+  }
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &--blue {
+    background-color: $electric-violet;
+  }
+}
