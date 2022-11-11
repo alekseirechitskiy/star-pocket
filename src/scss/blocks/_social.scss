@@ -1,0 +1,26 @@
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.social__item {
+  margin-right: 48px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.social__link {
+  transition: opacity 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.social__image {
+  vertical-align: bottom;
+}

@@ -36,6 +36,7 @@
   cursor: pointer;
   border: none;
   background-color: transparent;
+  margin-top: -6px;
 
   @media #{$screen-768} {
     display: none;
