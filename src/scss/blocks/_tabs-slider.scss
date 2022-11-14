@@ -1,0 +1,18 @@
+.tabs-slider {
+  z-index: 9999;
+  
+  .slick-list{
+    overflow: hidden;
+    width: 100% ;
+  }
+  
+  .slick-track {
+    display: flex;
+  }
+
+  .slick-slide {
+    width: 375px;
+    margin-right: 30px;
+  }
+}
+

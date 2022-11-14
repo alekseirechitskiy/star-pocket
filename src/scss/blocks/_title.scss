@@ -1,1 +1,29 @@
-.title {}
+.title {
+  margin: 0;
+  font-weight: 900;
+  font-size: $font-size-large;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: $white;
+  opacity: 0.5;
+
+  @media #{$screen-500} {
+    font-size: 40px;
+    line-height: 70px;
+  }
+
+  @media #{$screen-768} {
+    font-size: 70px;
+    line-height: 100px;
+  }
+
+  @media #{$screen-1024} {
+    font-size: 100px;
+    line-height: 150px;
+  }
+
+  @media #{$screen-1280} {
+    font-size: 120px;
+    line-height: 180px;
+  }
+}

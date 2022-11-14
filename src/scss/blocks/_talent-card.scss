@@ -1,0 +1,133 @@
+.talent-card {
+  box-sizing: border-box;
+  border-radius: 16px;
+  position: relative;
+  width: 175px;
+  height: 234px;
+  padding: 30px 16px 30px 30px;
+  display: flex !important;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+
+  @media #{$screen-992} {
+    width: 374px;
+    height: 500px;
+  }
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    // background: linear-gradient(0deg, #2C13DD 0%, rgba(0, 0, 0, 0) 98.3%);
+    opacity: 0.6;
+    border-radius: 16px;
+    z-index: 1;
+  }
+}
+
+.talent-card--blue {
+  .talent-card__label {
+    background-color: $persian-blue;
+  }
+
+  &::before {
+    background: linear-gradient(0deg, $persian-blue 0%, rgba(0, 0, 0, 0) 98.3%);
+  }
+}
+
+.talent-card--pink {
+  .talent-card__label {
+    background-color: $cardinal-pink;
+  }
+
+  &::before {
+    background: linear-gradient(0deg, $cardinal-pink 0%, rgba(0, 0, 0, 0) 98.3%);
+  }
+}
+
+.talent-card--yellow {
+  .talent-card__label {
+    background-color: $fire-bush;
+  }
+
+  &::before {
+    background: linear-gradient(0deg, $fire-bush 0%, rgba(0, 0, 0, 0) 98.3%);
+  }
+}
+
+.talent-card--lime {
+  .talent-card__label {
+    background-color: $lima;
+  }
+
+  &::before {
+    background: linear-gradient(0deg, $lima 0%, rgba(0, 0, 0, 0) 98.3%);
+  }
+}
+
+.talent-card--mint {
+  .talent-card__label {
+    background-color: $caribbean-green;
+  }
+
+  &::before {
+    background: linear-gradient(0deg, $caribbean-green 0%, rgba(0, 0, 0, 0) 98.3%);
+  }
+}
+
+.talent-card__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  vertical-align: bottom;
+  border-radius: 16px;
+  z-index: -1;
+  width: 100%;
+}
+
+.talent-card__label {
+  display: inline-block;
+  margin: 0;
+  padding: 5px 30px;
+  color: $wild-sand;
+  border-radius: 6px;
+  font-weight: 300;
+  font-size: $font-size-small;
+  line-height: 21px;
+  z-index: 5;
+
+  // &--blue {
+  //   background-color: $persian-blue;
+  // }
+}
+
+.talent-card__name {
+  margin: 0;
+  margin-top: auto;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: $font-size-normal;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: $wild-sand;
+  z-index: 5;
+}
+
+.talent-card__text {
+  z-index: 5;
+  margin: 0;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 20px;
+  color: $white;
+}

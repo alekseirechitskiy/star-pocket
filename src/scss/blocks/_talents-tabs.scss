@@ -1,0 +1,41 @@
+.talents-tabs {
+
+}
+
+.talents-tabs__navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid rgba($silver, 0.3);
+  margin-bottom: 130px;
+} 
+
+.talents-tabs__navigation-item {
+  margin-right: 70px;
+  padding-bottom: 15px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.talents-tabs__navigation-link {
+  font-weight: 600;
+  font-size: $font-size-normal;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $gray;
+
+  &--active {
+    color: $wild-sand;
+    border-bottom: 2px solid $wild-sand;
+    padding-bottom: 17px;
+  }
+}
+
+
+

@@ -1,0 +1,15 @@
+.tabs-content {
+
+}
+
+.tabs-content__item {
+  display: none;
+
+  &--active {
+    display: block;
+  }
+}
+
+.tabs-content__slider {
+
+}
