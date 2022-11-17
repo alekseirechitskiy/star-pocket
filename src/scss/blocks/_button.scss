@@ -8,6 +8,7 @@
   color: $white;
   text-decoration: none;
   transition: opacity 0.3s;
+  border: none;
 
   @media #{$screen-500} {
     padding: 13px 70px;

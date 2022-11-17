@@ -1,7 +1,9 @@
 .talents-tabs {
   overflow-x: scroll;
 
-
+  &::-webkit-scrollbar {
+    width: 0;
+  }
 }
 
 .talents-tabs__navigation {
