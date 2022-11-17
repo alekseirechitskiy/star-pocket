@@ -1,7 +1,7 @@
-// @import "libs"; // Файлы стилей вендоров/плвгинов
+@import "libs"; // Файлы стилей вендоров/плвгинов
 @import "vars"; // Переменные
 @import "fonts"; // Подключение шрифтов
-// @import "reset"; // Сброс стилей
+@import "reset"; // Сброс стилей
 @import "global"; // Подключение глбальных стилей
 
 /*
@@ -29,6 +29,10 @@
 @import "blocks/about";
 @import "blocks/about-video";
 @import "blocks/about-item";
+@import "blocks/clients";
+@import "blocks/clients-slider";
+@import "blocks/reviews-slider";
+@import "blocks/reviews-slide";
 @import "blocks/breadcrumbs";
 @import "blocks/pagination";
 @import "blocks/input-number";

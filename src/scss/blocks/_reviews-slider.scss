@@ -1,0 +1,88 @@
+.reviews-slider {
+  .slick-list{
+    overflow: hidden;
+    width: 100% ;
+  }
+  
+  .slick-track {
+    display: flex;
+  }
+
+  .slick-active {
+    transform: scale(0.8);
+    transition: 1s;
+
+    .reviews-slide {
+      max-width: 695px;
+      opacity: 0.3;
+      transition: 1s;
+
+      .reviews-slide__front {
+        transform: rotateY(180deg);
+      }
+
+      .reviews-slide__back {
+        transform: rotateY(360deg);
+      }
+    }
+  }
+
+  .slick-current.slick-active {
+    transform: scale(1);
+
+    .reviews-slide {
+      opacity: 1;
+      transition: 1s;
+
+      .reviews-slide__front {
+        transform: rotateY(0deg);
+      }
+
+      .reviews-slide__back {
+        transform: rotateY(180deg);
+      }
+
+      // .reviews-slide__front {
+      //   transform: rotateY(180deg);
+      // }
+
+      // .reviews-slide__back {
+      //   transform: rotateY(360deg);
+      // }
+
+      &--active {
+        // opacity: 1;
+        // .reviews-slide__front {
+        //   transform: rotateY(0deg);
+        // }
+
+        // .reviews-slide__back {
+        //   transform: rotateY(180deg);
+        // }
+      }
+    }
+
+   
+
+
+    //   .reviews-slide__front {
+    //     transform: rotateY(180deg);
+    //   }
+
+    //   .reviews-slide__back {
+    //     transform: rotateY(360deg);
+    //   }
+
+    //   &--active {
+    //     opacity: 1;
+    //     .reviews-slide__front {
+    //       transform: rotateY(0deg);
+    //     }
+
+    //     .reviews-slide__back {
+    //       transform: rotateY(180deg);
+    //     }
+    //   }
+    // }
+  }
+}

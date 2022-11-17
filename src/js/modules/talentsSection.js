@@ -1,4 +1,6 @@
 import $ from "jquery";
+import slick from "slick-carousel"
+
 
 export default function () {
   $('.talents-tabs__navigation-link').on('click', function(e) {
@@ -8,6 +10,7 @@ export default function () {
 
     $('.tabs-content__item').removeClass('tabs-content__item--active');
     $($(this).attr('href')).addClass('tabs-content__item--active');
+    $('.tabs-slider').slick('setPosition');
   })
 
 };

@@ -1,0 +1,29 @@
+.clients {
+  padding-bottom: 30px;
+  @media #{$screen-768} {
+    padding-bottom: 230px;
+  
+  }
+}
+
+.clients__inner {
+  max-width: 1420px;
+  margin: 0 auto;
+}
+
+.clients__slider-wrapper {
+  max-width: 1475px;
+  margin: 0 auto 80px;
+}
+
+.clients__title {
+  margin-bottom: 25px;
+
+  @media #{$screen-768} {
+    margin-bottom: 80px;
+  }
+}
+
+.clients__slider {
+  margin-bottom: 80px;
+}

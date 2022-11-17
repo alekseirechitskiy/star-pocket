@@ -1,5 +1,9 @@
 .about {
-  padding-bottom: 230px;
+  padding-bottom: 30px;
+  @media #{$screen-768} {
+
+    padding-bottom: 230px;
+  }
 }
 
 .about__title {

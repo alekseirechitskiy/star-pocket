@@ -1,5 +1,12 @@
 .tabs-content {
+  // margin-left: calc((100vw - 1445px) / 2);
+  // margin-left: auto;
+  padding-left: 15px;
+  // margin-bottom: 220px;
 
+  @media #{$screen-1440} {
+    margin-left: calc((100vw - 1445px) / 2);
+  }
 }
 
 .tabs-content__item {
@@ -11,5 +18,21 @@
 }
 
 .tabs-content__slider {
+  margin-bottom: 20px;
 
+  @media #{$screen-768} {
+    margin-bottom: 70px;
+  }
+}
+
+.tabs-content__link {
+  font-weight: 400;
+  font-size: $font-size-small;
+  line-height: 26px;
+  
+  @media #{$screen-768} {
+    font-weight: 500;
+    font-size: $font-size-large;
+    line-height: 30px;
+  }
 }

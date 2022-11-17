@@ -57,7 +57,7 @@
   @media #{$screen-768} {
     display: block;
     margin-top: auto;
-    margin-bottom: 35px;
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: $font-size-small;
     line-height: 26px;
@@ -65,6 +65,8 @@
   }
 
   @media #{$screen-992} {
+    margin-bottom: 35px;
+
     font-size: $font-size-large;
     line-height: 30px;
   }

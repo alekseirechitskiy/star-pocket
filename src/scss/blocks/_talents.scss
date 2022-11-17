@@ -1,5 +1,9 @@
 .talents {
-
+  padding-bottom: 30px;
+  
+  @media #{$screen-768} {
+    padding-bottom: 220px;
+  }
 }
 
 .talents__container {
@@ -9,10 +13,21 @@
 }
 
 .talents__title {
-  margin-bottom: 80px;
+  margin-bottom: 17px;
+
+  @media #{$screen-768} {
+    margin-bottom: 80px;
+  }
+  
 }
 
 .talents__tabs-content {
+  margin-left: auto;
+  // margin-bottom: 20px;
+  @media #{$screen-1440} {
+    margin-left: calc((100vw - 1445px) / 2);
+    // margin-bottom: 220px;
+  }
   // height: 700px;
   // max-width: 1690px;
   // z-index: 99;

@@ -1,5 +1,7 @@
 .tabs-slider {
   z-index: 9999;
+  position: relative;
+  // margin-bottom: 230px;
   
   .slick-list{
     overflow: hidden;
@@ -9,10 +11,44 @@
   .slick-track {
     display: flex;
   }
-
+  
   .slick-slide {
-    width: 375px;
-    margin-right: 30px;
+    width: 175px;
+    // height: 234px;
+    margin-right: 8px;
+
+    @media #{$screen-768} {
+      width: 374px;
+      height: auto;
+      margin-right: 30px;
+    }
+  }
+
+  .slick-arrow {
+    position: absolute;
+    bottom: -90px;
+    right: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid $white;
+    cursor: pointer;
+
+    @media #{$screen-1440} {
+      right: 358px;
+    }
+  }
+
+  .slick-prev {
+    right: 110px;
+
+    @media #{$screen-1440} {
+      right: 420px;
+    }
+  }
+
+  .slick-prev {
+
   }
 }
-
