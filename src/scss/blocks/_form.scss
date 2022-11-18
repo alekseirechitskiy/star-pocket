@@ -84,7 +84,13 @@
   background-position: calc(100% - 27px) center;
 
   @media #{$screen-768} {
-    padding: 13px 27px;
+    padding: 11px 27px;
+  }
+}
+
+.form__input--date {
+  @media #{$screen-768} {
+    padding: 10px 27px;
   }
 }
 
