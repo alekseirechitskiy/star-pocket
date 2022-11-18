@@ -103,6 +103,10 @@
     color: $silver;
     border: 2px solid $electric-violet;
     border-radius: 10px;
+    border-image-slice: 20; /* border-radius*2 */
+    border-image-repeat: round;
+    border-image-width: 20px; /* border-radius*2 */
+    border-image-source: url("@img/join-number-border.svg");
 
     @media #{$screen-768} {
       top: -10px;
@@ -112,7 +116,6 @@
       font-size: $font-size-large;
       line-height: 34px;
       border-radius: 16px;
-
     }
   }
 }
