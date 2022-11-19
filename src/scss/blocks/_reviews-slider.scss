@@ -1,21 +1,68 @@
 .reviews-slider {
+  margin-top: 80px;
+  display: flex;
+  position: relative;
+  height: 650px;
+  border: 1px solid green;
+
   .slick-list{
     overflow: hidden;
-    width: 100% ;
+    width: 100%;
+    display: flex;
   }
   
   .slick-track {
     display: flex;
+    align-items: center;
+  }
+
+  .slick-arrow {
+    position: absolute;
+    bottom: 0;
+    right: 390px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid $white;
+    background-color: transparent;
+    z-index: 9999999999;
+    cursor: pointer;
+  }
+
+  .slick-prev {
+    right: 450px;
+  }
+
+  .slick-slide {
+    // width: 453px;
+    width: 695px;
+
+    flex-shrink: 0;
+    height: 513px;
+    // margin: 0 30px;
+  }
+
+  .slick-cloned {
+    // align-self: flex-start;
+    // margin-right: 30px;
   }
 
   .slick-active {
+    // margin-left: 90px;
+    // margin-right: -70px;
+    transition: 0.3s;
     transform: scale(0.8);
-    transition: 1s;
+    // width: 453px;
+    // height: 365px;
+    flex-shrink: 0;
+    border: 1px solid blue;
+    // align-self: flex-start;
+    
 
     .reviews-slide {
-      max-width: 695px;
+      width: 695px;
       opacity: 0.3;
-      transition: 1s;
+      transition: 0.3s;
 
       .reviews-slide__front {
         transform: rotateY(180deg);
@@ -28,11 +75,22 @@
   }
 
   .slick-current.slick-active {
+    width: 695px;
     transform: scale(1);
 
+    // margin-top: 200px;
+    margin-left: -70px;
+    // margin-right: -70px;
+    // margin-right: -180px;
+    z-index: 9999999;
+    // align-self: flex-end;
+
     .reviews-slide {
+      // margin-top: 200px;
+      border: 1px solid white;
+
       opacity: 1;
-      transition: 1s;
+      transition: 0.3s;
 
       .reviews-slide__front {
         transform: rotateY(0deg);
@@ -41,29 +99,8 @@
       .reviews-slide__back {
         transform: rotateY(180deg);
       }
-
-      // .reviews-slide__front {
-      //   transform: rotateY(180deg);
-      // }
-
-      // .reviews-slide__back {
-      //   transform: rotateY(360deg);
-      // }
-
-      &--active {
-        // opacity: 1;
-        // .reviews-slide__front {
-        //   transform: rotateY(0deg);
-        // }
-
-        // .reviews-slide__back {
-        //   transform: rotateY(180deg);
-        // }
-      }
     }
-
    
-
 
     //   .reviews-slide__front {
     //     transform: rotateY(180deg);

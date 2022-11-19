@@ -1,8 +1,8 @@
 .clients {
   padding-bottom: 30px;
+
   @media #{$screen-768} {
     padding-bottom: 230px;
-  
   }
 }
 
@@ -26,4 +26,8 @@
 
 .clients__slider {
   margin-bottom: 80px;
+}
+
+.clients__reviews {
+  margin-top: 50px;
 }

@@ -4,6 +4,7 @@
 // Пример подключения плагинов
 // @import "~plugin-name.scss";
 // @import '~swiper/css';
-// @import "../../node_modules/swiper/swiper.scss";
-@import "../../node_modules/@splidejs/splide/dist/css/splide.min.css";
-@import "../../node_modules/@splidejs/splide/dist/css/themes/splide-skyblue.min";
+@import "../../node_modules/swiper/swiper.scss";
+@import "../../node_modules/swiper/modules/navigation/navigation.scss";
+// @import "../../node_modules/@splidejs/splide/dist/css/splide.min.css";
+// @import "../../node_modules/@splidejs/splide/dist/css/themes/splide-skyblue.min";

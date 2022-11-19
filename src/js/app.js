@@ -6,7 +6,7 @@ import headerScripts from './modules/header.js';
 import talentsSection from './modules/talentsSection.js';
 import talentsSlider from './modules/talentsSlider.js';
 import clientsListSlider from './modules/clientsListSlider.js';
-// import clientsReviews from './modules/clientsReviews.js';
+import clientsReviews from './modules/clientsReviews.js';
 import formTabs from './modules/formTabs.js';
 
 
@@ -15,7 +15,7 @@ headerScripts();
 talentsSection();
 talentsSlider();
 clientsListSlider();
-// clientsReviews();
 formTabs();
+clientsReviews();
 
 // pagination();

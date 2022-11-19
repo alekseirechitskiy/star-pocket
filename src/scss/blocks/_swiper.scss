@@ -1,0 +1,82 @@
+.swiper {
+  .swiper-wrapper {
+    box-sizing: border-box;
+    padding: 100px 0 50px;
+    position: relative;
+  }
+
+  .swiper-slide {
+    box-sizing: border-box;
+    transform: scale(0.8);
+  }
+
+  .swiper-slide.swiper-slide-active {
+    width: 600px !important;
+    opacity: 1;
+    transform: scale(1);
+    margin-left: -100px;
+
+    @media#{$screen-1440} {
+      width: 695px !important;
+
+    }
+
+    .reviews-slide__front {
+      transform: rotateY(0deg);
+    }
+
+    .reviews-slide__back {
+      transform: rotateY(180deg);
+    }
+  }
+
+
+
+  .swiper-slide.swiper-slide-duplicate{
+
+  }
+
+  .swiper-slide.swiper-slide-next {
+    margin-left: -70px;
+    margin-right: 70px;
+    margin-top: -150px;
+    z-index: -1;
+  }
+
+  .swiper-slide.swiper-slide-prev{
+    margin-top: -150px;
+  }
+  
+  .swiper-button-prev,
+  .swiper-button-next {
+    position: absolute;
+    top: auto;
+    bottom: 50px ;
+    left: auto;
+    right: 400px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid $white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position:  center;
+
+    &::before,
+    &::after {
+      display: none;
+    }
+  }
+
+  .swiper-button-prev {
+    right: 460px;
+    background-image: url("@img/icons/angle-left.svg");
+  }
+
+  .swiper-button-next {
+    background-image: url("@img/icons/angle-right.svg");
+  }
+}
