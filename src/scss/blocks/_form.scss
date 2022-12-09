@@ -89,8 +89,18 @@
 }
 
 .form__input--date {
+  height: 51px;
+
   @media #{$screen-768} {
+    height: auto;
     padding: 10px 27px;
+  }
+}
+
+.form__input.form__input--date:focus {
+  height: 51px;
+  @media #{$screen-768} {
+    height: auto;
   }
 }
 

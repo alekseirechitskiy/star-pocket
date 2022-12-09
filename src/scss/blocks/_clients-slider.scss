@@ -22,6 +22,7 @@
 
 .clients-slider__item {
   margin-right: 10px;
+
   @media #{$screen-768} {
     margin-right: 88px;
   }
@@ -34,4 +35,12 @@
   // border:1px solid pink;
   text-align: center;
  
+}
+
+.clients-slider__logo {
+  height: 40px;
+  vertical-align: bottom;
+  @media#{$screen-768} {
+    height: auto;
+  }
 }

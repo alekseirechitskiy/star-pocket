@@ -10,6 +10,10 @@
   margin-bottom: 25px;
 
   @media #{$screen-768} {
+    margin-bottom: 60px;
+  }
+
+  @media #{$screen-1440} {
     margin-bottom: 80px;
   }
 }

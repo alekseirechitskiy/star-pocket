@@ -1,8 +1,17 @@
 .clients {
   padding-bottom: 30px;
+  position: relative !important;
 
   @media #{$screen-768} {
-    padding-bottom: 230px;
+    padding-bottom: 120px;
+  }
+
+  @media #{$screen-1280} {
+    padding-bottom: 150px;
+  }
+
+  @media #{$screen-1440} {
+    padding-bottom: 220px;
   }
 }
 
@@ -13,13 +22,19 @@
 
 .clients__slider-wrapper {
   max-width: 1475px;
-  margin: 0 auto 80px;
+  margin: 0 auto;
+  // margin: 0 auto 80px;
 }
 
 .clients__title {
-  margin-bottom: 25px;
+  // margin-bottom: 25px;
+  margin-bottom: 40px;
 
   @media #{$screen-768} {
+    margin-bottom: 60px;
+  }
+
+  @media #{$screen-1440} {
     margin-bottom: 80px;
   }
 }
@@ -29,5 +44,5 @@
 }
 
 .clients__reviews {
-  margin-top: 50px;
+  margin-top: 20px;
 }

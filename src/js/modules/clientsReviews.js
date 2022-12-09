@@ -18,9 +18,23 @@ export default function () {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-    slidesPerView: 3,
+    // slidesPerView: 3,
     centeredSlides: true,
     loop: true,
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+        // spaceBetween: 40,
+      },
+      1024: {
+        slidesPerView: 2,
+        // spaceBetween: 50,
+      },
+      1280: {
+        slidesPerView: 3,
+        // spaceBetween: 50,
+      },
+    },
 
     // autoHeight: true,
   });
