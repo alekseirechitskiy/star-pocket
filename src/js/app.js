@@ -8,8 +8,10 @@ import talentsSlider from './modules/talentsSlider.js';
 import clientsListSlider from './modules/clientsListSlider.js';
 import clientsReviews from './modules/clientsReviews.js';
 import formTabs from './modules/formTabs.js';
+import wowModule from './modules/wowModule.js';
 
 
+wowModule();
 functions.isWebp();
 headerScripts();
 talentsSection();

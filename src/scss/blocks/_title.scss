@@ -4,8 +4,7 @@
   font-size: $font-size-large;
   line-height: 30px;
   text-transform: uppercase;
-  color: $white;
-  opacity: 0.5;
+  color: $monson;
 
   @media #{$screen-500} {
     font-size: 40px;
@@ -30,5 +29,15 @@
   @media #{$screen-1440} {
     font-size: 120px;
     line-height: 180px;
+  }
+
+}
+.title.animate__animated {
+  animation: none; 
+
+  @media #{$screen-768} {
+    animation: fadeInLeft;
+    animation-duration: 1s;
+
   }
 }
