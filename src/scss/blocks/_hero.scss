@@ -79,12 +79,12 @@
 
   }
 
-  @media #{$screen-992} {
+  @media #{$screen-1280} and (min-height: 860px) {
     font-size: 70px;
     line-height: 100px;
   }
 
-  @media #{$screen-1280} {
+  @media #{$screen-1440}  {
     font-size: 90px;
     line-height: 120px;
   }
@@ -104,12 +104,12 @@
     margin-bottom: 100px;
   }
 
-  @media #{$screen-992} {
+  @media #{$screen-992}  {
     font-size: 22px;
     line-height: 32px;
   }
 
-  @media #{$screen-1024} {
+  @media #{$screen-1024} and (min-height: 860px) {
     font-size: 26px;
     line-height: 39px;
   }
@@ -143,8 +143,8 @@
 }
 
 .hero__number-box {
-  width: 200px;
-  height: 200px;
+  width: 170px;
+  height: 170px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -157,7 +157,7 @@
   border-image-width: 60px; /* border-radius*2 */
   border-image-source: url("@img/number-border.svg");
   
-  @media #{$screen-1280} {
+  @media #{$screen-1280} and (min-height: 860px) {
     width: 250px;
     height: 250px;
   }
@@ -198,7 +198,12 @@
   padding: 0;
   margin: 0;
 
-  @media #{$screen-1280} {
+  @media #{$screen-1280} and (min-height: 860px) {
+    font-size: 50px;
+    line-height: 85px;
+  }
+
+  @media #{$screen-1440} {
     font-size: 70px;
     line-height: 105px;
   }
