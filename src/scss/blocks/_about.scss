@@ -11,6 +11,23 @@
 
   @media #{$screen-1440} {
     padding-bottom: 220px;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: "";
+      top: -50%;
+      left: -30%;
+      width: 1442px;
+      height: 1442px;
+      // height: 2000px;
+      z-index: -1;
+      background-image: url("@img/bg-circle.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      opacity: 0.5;
+    }
   }
 }
 
