@@ -1,7 +1,7 @@
 .hero {
   margin: 0;
+  margin-bottom: 20px;
   padding: 0;
-  height: auto;
   background-image: url("@img/hero-bg@1x.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,6 +10,7 @@
 
   @media #{$screen-768} {
     height: 100vh;
+    margin-bottom: 0;
   }
 
   @media (min-resolution: 2dppx) {

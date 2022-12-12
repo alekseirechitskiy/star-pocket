@@ -32,12 +32,12 @@
   }
 
 }
+
 .title.animate__animated {
   animation: none; 
 
   @media #{$screen-768} {
     animation: fadeInLeft;
     animation-duration: 1s;
-
   }
 }

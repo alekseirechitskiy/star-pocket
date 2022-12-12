@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html class="html" lang="en">
-@@include('html/_head.html',{'title': 'Star pocket'})
+@@include('html/_head.html',{'title': 'Star Pocket'})
 
 <body class="body">
-  <!-- HEADER -->
-  
   <!-- MAIN -->
   <main class="main">
     <section class="hero">
+      <!-- HEADER -->
       @@include('html/_header.html',{})
       <div class="hero__container">
         <div class="hero__inner">
@@ -475,7 +474,7 @@
                       <option class="form__option" value="">International</option>
                     </select>
                     <div class="form__fields-box">
-                      <input class="form__input form__input--date" placeholder="Date" type="text" onfocus="(this.type='date')">
+                      <input class="form__input form__input--date" placeholder="Date" type="text" onclick="(this.type='date')">
                       <select class="form__select form__select--region" name="" id="">
                         <option class="form__option" value="">Region</option>
                         <option class="form__option" value="">Europe</option>
