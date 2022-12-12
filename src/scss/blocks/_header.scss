@@ -5,13 +5,25 @@
   flex-shrink: 0;
   left: 0;
   right: 0;
-  background: transparent;
+  // background: transparent;
   // background: $electric-violet;
   // box-shadow: 0px 2px 4px rgba($black, 0.1);
   // transition: all .3s;
 
   @media #{$screen-768} {
     position: absolute;
+  }
+
+  &--transparent {
+    background: transparent;
+  }
+
+  &--purple {
+    background: $cardinal-pink;
+  }
+
+  &--blue {
+    background: $persian-blue;
   }
 }
 
