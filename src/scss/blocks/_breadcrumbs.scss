@@ -1,17 +1,23 @@
 .breadcrumbs {
   padding: 20px 0;
   font-weight: 300;
+
+  @media #{$screen-768} {
+    padding: 40px 0 76px;
+  }
 }
 
 .breadcrumbs__list {
   display: flex;
   flex-wrap: wrap;
-  font-size: $font-size-normal;
+  font-size: $font-size-extraSmall;
+  line-height: 18px;
   margin: 0;
 
   @media #{$tablet} {
     font-size: $font-size-small;
-    line-height: 18px;
+    line-height: 20px;
+    color: rgba($wild-sand, 0.5);
   }
 }
 
@@ -31,8 +37,6 @@
   }
 
   &:last-child {
-    font-weight: 600;
-
     &::after {
       display: none;
     }

@@ -25,6 +25,10 @@
   &--blue {
     background: $persian-blue;
   }
+
+  &--static {
+    position: static;
+  }
 }
 
 .header__container {

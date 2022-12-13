@@ -1,5 +1,6 @@
 .join {
   padding-bottom: 30px;
+  overflow: hidden;
 
   @media #{$screen-768} {
     padding-bottom: 267px;

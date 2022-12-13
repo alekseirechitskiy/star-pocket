@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html class="html" lang="en">
+@@include('html/_head.html',{'title': 'Star Pocket - Talents'})
+
+<body class="body">
+  <!-- HEADER -->
+  @@include('html/_header.html',{
+    'header-bg': 'header--purple',
+    'header-pos': 'header--static',
+  })
+  <!-- MAIN -->
+  <main class="main talents-page">
+    <div class="breadcrumbs">
+      <div class="talents-page__container">
+        <ul class="breadcrumbs__list">
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="index.html">Home page</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <span>Our Talents</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <section class="talents-choise">
+      <div class="talents-page__container">
+        <div class="talents-choise__top">
+          <div class="talents-choise__tabs  talents-tabs">
+            <ul class="talents-choise__tabs-navigation talents-tabs__navigation">
+              <li class="talents-tabs__navigation-item">
+                <a class="talents-tabs__navigation-link" href="#tab-popular">Popular</a>
+              </li>
+              <li class="talents-tabs__navigation-item">
+                <a class="talents-tabs__navigation-link talents-tabs__navigation-link--active" href="#tab-music">Music</a>
+              </li>
+              <li class="talents-tabs__navigation-item">
+                <a class="talents-tabs__navigation-link" href="#tab-comedy">Comedy</a>
+              </li>
+              <li class="talents-tabs__navigation-item">
+                <a class="talents-tabs__navigation-link" href="#tab-novelty">Novelty</a>
+              </li>
+              <li class="talents-tabs__navigation-item">
+                <a class="talents-tabs__navigation-link" href="#tab-variety">Variety</a>
+              </li>
+              <li class="talents-tabs__navigation-item">
+                <a class="talents-tabs__navigation-link" href="#tab-international">International</a>
+              </li>
+            </ul>
+          </div>
+          <input class="talents-choise__search" type="text" placeholder="Search by artist name">
+        </div>
+        <div class="talents-choise__content">
+          <div class="talents-choise__filters">
+            <h4 class="talents-choise__filters-title">Filter by:</h4>
+            <div class="filter filter__category">
+              <h5 class="filter-list__title">Category</h5>
+              <ul class="filter-list">
+                <li class="filter-list__item">
+                  <label class="form__checkbox">
+                    <input class="form__checkbox-input" type="checkbox" checked>
+                    <span class="form__checkbox-text">All</span>
+                  </label>
+                </li>
+                <li class="filter-list__item">
+                  <label class="form__checkbox">
+                    <input class="form__checkbox-input" type="checkbox">
+                    <span class="form__checkbox-text">Vocal Groups</span>
+                  </label>
+                </li>
+                <li class="filter-list__item">
+                  <label class="form__checkbox">
+                    <input class="form__checkbox-input" type="checkbox">
+                    <span class="form__checkbox-text">Female</span>
+                  </label>
+                </li>
+                <li class="filter-list__item">
+                  <label class="form__checkbox">
+                    <input class="form__checkbox-input" type="checkbox">
+                    <span class="form__checkbox-text">Male</span>
+                  </label>
+                </li>
+                <li class="filter-list__item">
+                  <label class="form__checkbox">
+                    <input class="form__checkbox-input" type="checkbox">
+                    <span class="form__checkbox-text">Vocal Duo’s</span>
+                  </label>
+                </li>
+                <li class="filter-list__item">
+                  <label class="form__checkbox">
+                    <input class="form__checkbox-input" type="checkbox">
+                    <span class="form__checkbox-text">Tribute</span>
+                  </label>
+                </li>
+                <li class="filter-list__item">
+                  <label class="form__checkbox">
+                    <input class="form__checkbox-input" type="checkbox">
+                    <span class="form__checkbox-text">Vocal Impressionist</span>
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <div class="filter filter__location">
+              <h5 class="filter-list__title">Location</h5>
+              <ul class="filter-list">
+                <li class="filter-list__item">
+                  <label class="form__checkbox">
+                    <input class="form__checkbox-input-iconed" type="checkbox">
+                    <span class="form__checkbox-text">Africa</span>
+                  </label>
+                </li>
+                <li class="filter-list__item">
+                  <label class="form__checkbox">
+                    <input class="form__checkbox-input-iconed" type="checkbox">
+                    <span class="form__checkbox-text">Asia</span>
+                  </label>
+                </li>
+                <li class="filter-list__item">
+                  <label class="form__checkbox">
+                    <input class="form__checkbox-input-iconed" type="checkbox">
+                    <span class="form__checkbox-text">Australia</span>
+                  </label>
+                </li>
+                <li class="filter-list__item">
+                  <label class="form__checkbox">
+                    <input class="form__checkbox-input-iconed" type="checkbox">
+                    <span class="form__checkbox-text">Canada</span>
+                  </label>
+                </li>
+                <li class="filter-list__item">
+                  <label class="form__checkbox">
+                    <input class="form__checkbox-input-iconed" type="checkbox">
+                    <span class="form__checkbox-text">Europe</span>
+                  </label>
+                </li>
+                <li class="filter-list__item">
+                  <label class="form__checkbox">
+                    <input class="form__checkbox-input-iconed" type="checkbox">
+                    <span class="form__checkbox-text">South America</span>
+                  </label>
+                </li>
+                <li class="filter-list__item">
+                  <label class="form__checkbox">
+                    <input class="form__checkbox-input-iconed" type="checkbox"  checked>
+                    <span class="form__checkbox-text">USA</span>
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <div class="filter filter__show-time">
+              <h5 class="filter-list__title">Show Time</h5>
+              <ul class="filter-list">
+                <li class="filter-list__item">
+                  <label class="form__checkbox">
+                    <input class="form__checkbox-input" type="checkbox" checked>
+                    <span class="form__checkbox-text">20-40 min</span>
+                  </label>
+                </li>
+                <li class="filter-list__item">
+                  <label class="form__checkbox">
+                    <input class="form__checkbox-input" type="checkbox">
+                    <span class="form__checkbox-text">41-60 min</span>
+                  </label>
+                </li>
+                <li class="filter-list__item">
+                  <label class="form__checkbox">
+                    <input class="form__checkbox-input" type="checkbox">
+                    <span class="form__checkbox-text">61-90 min</span>
+                  </label>
+                </li>
+                <li class="filter-list__item">
+                  <label class="form__checkbox">
+                    <input class="form__checkbox-input" type="checkbox">
+                    <span class="form__checkbox-text">>90 min</span>
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <div class="filter filter__price">
+              <h5 class="filter-list__title">Price</h5>
+              <input class="price-slider" type="text" data-min="0" data-max="600" data-from="150" data-to="450">
+              <label class="filter__price-label">
+                <span class="filter__price-box">
+                  <span class="filter__price-from"></span>
+                  &nbsp;to&nbsp;
+                  <span class="filter__price-to"></span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <div class="talents-choise__lists">lists</div>
+        </div>
+      </div>
+    </section>
+      
+    
+    
+  </main>
+  <!-- FOOTER -->
+  @@include('html/_footer.html',{})
+  <script src="js/app.min.js"></script>
+</body>
+
+</html>

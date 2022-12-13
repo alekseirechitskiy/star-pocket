@@ -81,7 +81,17 @@
 
   @media #{$screen-992} {
     font-size: $font-size-large;
-    line-height: 30px;
+    line-height: 40px;
+  }
+
+  &--active {
+    font-weight: 500;
+    padding-bottom: 4px;
+    border-bottom: 2px solid rgba($wild-sand, 0.2);
+
+    &:hover {
+      opacity: 1 !important; 
+    }
   }
 }
 

@@ -7,8 +7,6 @@
 /*
 * blocks
 */
-
-//  Пример подключения стилей блоков
 @import "blocks/html";
 @import "blocks/body";
 @import "blocks/main";
@@ -32,11 +30,8 @@
 @import "blocks/about-item";
 @import "blocks/clients";
 @import "blocks/clients-slider";
-// @import "blocks/reviews-slider";
 @import "blocks/reviews-slide";
 @import "blocks/swiper";
-// @import "blocks/splide";
-
 @import "blocks/join";
 @import "blocks/form-box";
 @import "blocks/form";
@@ -44,3 +39,9 @@
 @import "blocks/pagination";
 @import "blocks/input-number";
 @import "blocks/link";
+@import "blocks/talents-page";
+@import "blocks/talents-choise";
+@import "blocks/filters-block";
+@import "blocks/filter";
+@import "blocks/filter-list";
+@import "blocks/irs";

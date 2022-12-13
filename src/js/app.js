@@ -9,6 +9,7 @@ import clientsListSlider from './modules/clientsListSlider.js';
 import clientsReviews from './modules/clientsReviews.js';
 import formTabs from './modules/formTabs.js';
 import wowModule from './modules/wowModule.js';
+import ionSlider from './modules/ionSlider.js';
 
 
 wowModule();
@@ -19,5 +20,6 @@ talentsSlider();
 clientsListSlider();
 formTabs();
 clientsReviews();
+ionSlider();
 
 // pagination();
