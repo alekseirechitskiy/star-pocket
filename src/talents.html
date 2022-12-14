@@ -7,6 +7,7 @@
   @@include('html/_header.html',{
     'header-bg': 'header--purple',
     'header-pos': 'header--static',
+    'header-container': 'header__container--wide',
   })
   <!-- MAIN -->
   <main class="main talents-page">
@@ -57,7 +58,7 @@
               <ul class="filter-list">
                 <li class="filter-list__item">
                   <label class="form__checkbox">
-                    <input class="form__checkbox-input" type="checkbox" checked>
+                    <input class="form__checkbox-input" type="checkbox">
                     <span class="form__checkbox-text">All</span>
                   </label>
                 </li>
@@ -75,7 +76,7 @@
                 </li>
                 <li class="filter-list__item">
                   <label class="form__checkbox">
-                    <input class="form__checkbox-input" type="checkbox">
+                    <input class="form__checkbox-input" type="checkbox" checked>
                     <span class="form__checkbox-text">Male</span>
                   </label>
                 </li>
@@ -151,7 +152,7 @@
               <ul class="filter-list">
                 <li class="filter-list__item">
                   <label class="form__checkbox">
-                    <input class="form__checkbox-input" type="checkbox" checked>
+                    <input class="form__checkbox-input" type="checkbox">
                     <span class="form__checkbox-text">20-40 min</span>
                   </label>
                 </li>
@@ -163,7 +164,7 @@
                 </li>
                 <li class="filter-list__item">
                   <label class="form__checkbox">
-                    <input class="form__checkbox-input" type="checkbox">
+                    <input class="form__checkbox-input" type="checkbox" checked>
                     <span class="form__checkbox-text">61-90 min</span>
                   </label>
                 </li>
@@ -189,7 +190,349 @@
               </div>
             </div>
           </div>
-          <div class="talents-choise__lists">lists</div>
+          <div class="talents-choise__lists talents-content">
+            <div class="talents-content__top">
+              <ul class="talents-content__filters-tags filters-tags">
+                <li class="filters-tags__item">
+                  <p class="filters-tags__item-text">male
+                    <button class="filters-tags__item-button">
+                      <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.85077 8.84986C8.65058 9.05006 8.326 9.05006 8.1258 8.84986L4.50092 5.22498L0.876039 8.84987C0.675842 9.05006 0.351259 9.05006 0.151063 8.84987C-0.0491335 8.64967 -0.0491337 8.32509 0.151063 8.12489L3.77595 4.50001L0.151063 0.875123C-0.0491337 0.674927 -0.0491335 0.350344 0.151063 0.150148C0.351259 -0.050049 0.675842 -0.0500493 0.876039 0.150147L4.50092 3.77503L8.1258 0.150153C8.326 -0.0500438 8.65058 -0.0500435 8.85077 0.150153C9.05097 0.35035 9.05097 0.674932 8.85077 0.875129L5.2259 4.50001L8.85077 8.12488C9.05097 8.32508 9.05097 8.64966 8.85077 8.84986Z" fill="#F4F4F4"/>
+                      </svg>
+                    </button>
+                  </p>
+                </li>
+                <li class="filters-tags__item">
+                  <p class="filters-tags__item-text">USA 
+                    <button class="filters-tags__item-button">
+                      <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.85077 8.84986C8.65058 9.05006 8.326 9.05006 8.1258 8.84986L4.50092 5.22498L0.876039 8.84987C0.675842 9.05006 0.351259 9.05006 0.151063 8.84987C-0.0491335 8.64967 -0.0491337 8.32509 0.151063 8.12489L3.77595 4.50001L0.151063 0.875123C-0.0491337 0.674927 -0.0491335 0.350344 0.151063 0.150148C0.351259 -0.050049 0.675842 -0.0500493 0.876039 0.150147L4.50092 3.77503L8.1258 0.150153C8.326 -0.0500438 8.65058 -0.0500435 8.85077 0.150153C9.05097 0.35035 9.05097 0.674932 8.85077 0.875129L5.2259 4.50001L8.85077 8.12488C9.05097 8.32508 9.05097 8.64966 8.85077 8.84986Z" fill="#F4F4F4"/>
+                      </svg>
+                    </button>
+                  </p>
+                </li>
+                <li class="filters-tags__item">
+                  <p class="filters-tags__item-text">61-90 min
+                    <button class="filters-tags__item-button">
+                      <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.85077 8.84986C8.65058 9.05006 8.326 9.05006 8.1258 8.84986L4.50092 5.22498L0.876039 8.84987C0.675842 9.05006 0.351259 9.05006 0.151063 8.84987C-0.0491335 8.64967 -0.0491337 8.32509 0.151063 8.12489L3.77595 4.50001L0.151063 0.875123C-0.0491337 0.674927 -0.0491335 0.350344 0.151063 0.150148C0.351259 -0.050049 0.675842 -0.0500493 0.876039 0.150147L4.50092 3.77503L8.1258 0.150153C8.326 -0.0500438 8.65058 -0.0500435 8.85077 0.150153C9.05097 0.35035 9.05097 0.674932 8.85077 0.875129L5.2259 4.50001L8.85077 8.12488C9.05097 8.32508 9.05097 8.64966 8.85077 8.84986Z" fill="#F4F4F4"/>
+                      </svg>
+                    </button>
+                  </p>
+                </li>
+                <li class="filters-tags__item">
+                  <p class="filters-tags__item-text">150-400 $
+                    <button class="filters-tags__item-button">
+                      <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.85077 8.84986C8.65058 9.05006 8.326 9.05006 8.1258 8.84986L4.50092 5.22498L0.876039 8.84987C0.675842 9.05006 0.351259 9.05006 0.151063 8.84987C-0.0491335 8.64967 -0.0491337 8.32509 0.151063 8.12489L3.77595 4.50001L0.151063 0.875123C-0.0491337 0.674927 -0.0491335 0.350344 0.151063 0.150148C0.351259 -0.050049 0.675842 -0.0500493 0.876039 0.150147L4.50092 3.77503L8.1258 0.150153C8.326 -0.0500438 8.65058 -0.0500435 8.85077 0.150153C9.05097 0.35035 9.05097 0.674932 8.85077 0.875129L5.2259 4.50001L8.85077 8.12488C9.05097 8.32508 9.05097 8.64966 8.85077 8.84986Z" fill="#F4F4F4"/>
+                      </svg>
+                    </button>
+                  </p>
+                </li>
+                <li class="filters-tags__item filters-tags__item--purple">
+                  <p class="filters-tags__item-text">clear all
+                    <button class="filters-tags__item-button">
+                      <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.85077 8.84986C8.65058 9.05006 8.326 9.05006 8.1258 8.84986L4.50092 5.22498L0.876039 8.84987C0.675842 9.05006 0.351259 9.05006 0.151063 8.84987C-0.0491335 8.64967 -0.0491337 8.32509 0.151063 8.12489L3.77595 4.50001L0.151063 0.875123C-0.0491337 0.674927 -0.0491335 0.350344 0.151063 0.150148C0.351259 -0.050049 0.675842 -0.0500493 0.876039 0.150147L4.50092 3.77503L8.1258 0.150153C8.326 -0.0500438 8.65058 -0.0500435 8.85077 0.150153C9.05097 0.35035 9.05097 0.674932 8.85077 0.875129L5.2259 4.50001L8.85077 8.12488C9.05097 8.32508 9.05097 8.64966 8.85077 8.84986Z" fill="#F4F4F4"/>
+                      </svg>
+                    </button>
+                  </p>
+                </li>
+              </ul>
+              <select class="talents-content__select">
+                <option value="category">by category</option>
+                <option value="location">by location</option>
+                <option value="show time">by show time</option>
+                <option value="price">by price</option>
+              </select>
+            </div>
+            <ul class="talents-content__list">
+
+              <li class="talents-content__item">
+                <div class="talent-card">
+                  <img class="talent-card__image" src="@img/talents/talent-6@1x.jpg" srcset="@img/talents/talent-6@2x.jpg 2x" alt="Bryan Foster photo">
+                  <div class="talent-card__info">
+                    <h5 class="talent-card__name">Bryan Foster</h5>
+                    <p class="talent-card__text">
+                      Dubbed “America’s new romantic singing sensation”, tenor Bryan Foster is the Brooklyn-born, Nashville-based singer and songwriter.
+                    </p>
+                  </div>
+                  <div class="talent-card__details">
+                    <h5 class="talent-card__name">Bryan Foster</h5>
+                    <ul class="talent-card__details-list details-list">
+                      <li class="details-list__item details-list__item-duration">
+                        2 x 45 minutes
+                      </li>
+                      <li class="details-list__item details-list__item-show">
+                        <p class="details-list__item-text">1 Vocal Variety Show</p>
+                        <p class="details-list__item-text">1 Sam Smith Tribute Show</p>
+                      </li>
+                      <li class="details-list__item details-list__item-price">
+                        from 1500$
+                      </li>
+                    </ul>
+                    <button class="details-list__button">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <li class="talents-content__item">
+                <div class="talent-card">
+                  <img class="talent-card__image" src="@img/talents/talent-7@1x.jpg" srcset="@img/talents/talent-7@2x.jpg 2x" alt="Saif Rose photo">
+                  <div class="talent-card__info">
+                    <h5 class="talent-card__name">Saif Rose</h5>
+                    <p class="talent-card__text">
+                      From the bright lights of the Las Vegas strip, this America’s Got Talent Semi-Finalist brings you soulful sounds from Motown, the blues.
+                    </p>
+                  </div>
+                  <div class="talent-card__details">
+                    <h5 class="talent-card__name">Saif Rose</h5>
+                    <ul class="talent-card__details-list details-list">
+                      <li class="details-list__item details-list__item-duration">
+                        2 x 45 minutes
+                      </li>
+                      <li class="details-list__item details-list__item-show">
+                        <p class="details-list__item-text">1 Vocal Variety Show</p>
+                      </li>
+                      <li class="details-list__item details-list__item-price">
+                        from 1000$
+                      </li>
+                    </ul>
+                    <button class="details-list__button">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <li class="talents-content__item">
+                <div class="talent-card">
+                  <img class="talent-card__image" src="@img/talents/talent-8@1x.jpg" srcset="@img/talents/talent-8@2x.jpg 2x" alt="Jamal photo">
+                  <div class="talent-card__info">
+                    <h5 class="talent-card__name">Jamal</h5>
+                    <p class="talent-card__text">
+                      Raised on the classic Motown and Stax soul sounds of Stevie Wonder, Sam Cooke, Jamal brings his unique smooth soul around the world. 
+                    </p>
+                  </div>
+                  <div class="talent-card__details">
+                    <h5 class="talent-card__name">Jamal</h5>
+                    <ul class="talent-card__details-list details-list">
+                      <li class="details-list__item details-list__item-duration">
+                        3 x 35 minutes
+                      </li>
+                      <li class="details-list__item details-list__item-show">
+                        <p class="details-list__item-text">1 Vocal Variety Show</p>
+                        <p class="details-list__item-text">1 Michael Jackson Tribute Show</p>
+                      </li>
+                      <li class="details-list__item details-list__item-price">
+                        from 1000$
+                      </li>
+                    </ul>
+                    <button class="details-list__button">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <li class="talents-content__item">
+                <div class="talent-card">
+                  <img class="talent-card__image" src="@img/talents/talent-2-1@1x.jpg" srcset="@img/talents/talent-2-1@2x.jpg 2x" alt="ANTHONY NUNZIATA photo">
+                  <div class="talent-card__info">
+                    <h5 class="talent-card__name">ANTHONY NUNZIATA</h5>
+                    <p class="talent-card__text">
+                      Singer and songwriter who brings his soulful voice to classic jazz, pop standards, classical-crossover and his timeless original music.
+                    </p>
+                  </div>
+                  <div class="talent-card__details">
+                    <h5 class="talent-card__name">ANTHONY NUNZIATA</h5>
+                    <ul class="talent-card__details-list details-list">
+                      <li class="details-list__item details-list__item-duration">
+                        2 x 45 minutes
+                      </li>
+                      <li class="details-list__item details-list__item-show">
+                        <p class="details-list__item-text">1 Vocal Variety Show</p>
+                      </li>
+                      <li class="details-list__item details-list__item-price">
+                        from 800$
+                      </li>
+                    </ul>
+                    <button class="details-list__button">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <li class="talents-content__item">
+                <div class="talent-card">
+                  <img class="talent-card__image" src="@img/talents/talent-9@1x.jpg" srcset="@img/talents/talent-9@2x.jpg 2x" alt="JAY JAY photo">
+                  <div class="talent-card__info">
+                    <h5 class="talent-card__name">JAY JAY</h5>
+                    <p class="talent-card__text">
+                      American singer, songwriter, record producer, multi-instrumentalist and dancer. Known for his stage performances and retrospective artistry.
+                    </p>
+                  </div>
+                  <div class="talent-card__details">
+                    <h5 class="talent-card__name">JAY JAY</h5>
+                    <ul class="talent-card__details-list details-list">
+                      <li class="details-list__item details-list__item-duration">
+                        2 x 50 minutes
+                      </li>
+                      <li class="details-list__item details-list__item-show">
+                        <p class="details-list__item-text">1 Vocal Variety Show</p>
+                        <p class="details-list__item-text">1 Pharrell Williams Tribute Show</p>
+                      </li>
+                      <li class="details-list__item details-list__item-price">
+                        from 1200$
+                      </li>
+                    </ul>
+                    <button class="details-list__button">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <li class="talents-content__item">
+                <div class="talent-card">
+                  <img class="talent-card__image" src="@img/talents/talent-16@1x.jpg" srcset="@img/talents/talent-16@2x.jpg 2x" alt="ROBERT KAY photo">
+                  <div class="talent-card__info">
+                    <h5 class="talent-card__name">ROBERT KAY</h5>
+                    <p class="talent-card__text">
+                      American singer, songwriter. Known for his stage performances and retrospective artistry.
+                    </p>
+                  </div>
+                  <div class="talent-card__details">
+                    <h5 class="talent-card__name">ROBERT KAY</h5>
+                    <ul class="talent-card__details-list details-list">
+                      <li class="details-list__item details-list__item-duration">
+                        2 x 45 minutes
+                      </li>
+                      <li class="details-list__item details-list__item-show">
+                        <p class="details-list__item-text">1 Vocal Variety Show</p>
+                        <p class="details-list__item-text">1 Jay Z Tribute Show</p>
+                      </li>
+                      <li class="details-list__item details-list__item-price">
+                        from 1500$
+                      </li>
+                    </ul>
+                    <button class="details-list__button">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <li class="talents-content__item">
+                <div class="talent-card">
+                  <img class="talent-card__image" src="@img/talents/talent-10@1x.jpg" srcset="@img/talents/talent-10@2x.jpg 2x" alt="Terry Hughes photo">
+                  <div class="talent-card__info">
+                    <h5 class="talent-card__name">Terry Hughes</h5>
+                    <p class="talent-card__text">
+                      Terry Hughes is a rising star that has captivated audiences all over the world! 
+                    </p>
+                  </div>
+                  <div class="talent-card__details">
+                    <h5 class="talent-card__name">Terry Hughes</h5>
+                    <ul class="talent-card__details-list details-list">
+                      <li class="details-list__item details-list__item-duration">
+                        3 x 35 minutes
+                      </li>
+                      <li class="details-list__item details-list__item-show">
+                        <p class="details-list__item-text">1 Vocal Variety Show</p>
+                        <p class="details-list__item-text">1 Ed Sheeran Tribute Show</p>
+                      </li>
+                      <li class="details-list__item details-list__item-price">
+                        from 1500$
+                      </li>
+                    </ul>
+                    <button class="details-list__button">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <li class="talents-content__item">
+                <div class="talent-card">
+                  <img class="talent-card__image" src="@img/talents/talent-14@1x.jpg" srcset="@img/talents/talent-14@2x.jpg 2x" alt="Leonard Richardson photo">
+                  <div class="talent-card__info">
+                    <h5 class="talent-card__name">Leonard Richardson</h5>
+                    <p class="talent-card__text">
+                      Rock, drive and expression - that's what you can see and feel at Leonardo's concerts. He will surprise you with his vocals and guitar skills.
+                    </p>
+                  </div>
+                  <div class="talent-card__details">
+                    <h5 class="talent-card__name">Leonard Richardson</h5>
+                    <ul class="talent-card__details-list details-list">
+                      <li class="details-list__item details-list__item-duration">
+                        2 x 45 minutes
+                      </li>
+                      <li class="details-list__item details-list__item-show">
+                        <p class="details-list__item-text">1 Vocal Variety Show</p>
+                        <p class="details-list__item-text">1 Imagine Dragons Tribute Show</p>
+                      </li>
+                      <li class="details-list__item details-list__item-price">
+                        from 1100$
+                      </li>
+                    </ul>
+                    <button class="details-list__button">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <li class="talents-content__item">
+                <div class="talent-card">
+                  <img class="talent-card__image" src="@img/talents/talent-15@1x.jpg" srcset="@img/talents/talent-15@2x.jpg 2x" alt="Wayne Lopez photo">
+                  <div class="talent-card__info">
+                    <h5 class="talent-card__name">Wayne Lopez</h5>
+                    <p class="talent-card__text">
+                      Formerly lead vocalist with legends ‘Paul Revere And The Raiders’, and first guitarist with ‘The Backstreet Boys’.
+                    </p>
+                  </div>
+                  <div class="talent-card__details">
+                    <h5 class="talent-card__name">Wayne Lopez</h5>
+                    <ul class="talent-card__details-list details-list">
+                      <li class="details-list__item details-list__item-duration">
+                        2 x 45 minutes
+                      </li>
+                      <li class="details-list__item details-list__item-show">
+                        <p class="details-list__item-text">1 Vocal Variety Show</p>
+                      </li>
+                      <li class="details-list__item details-list__item-price">
+                        from 700$
+                      </li>
+                    </ul>
+                    <button class="details-list__button">Book Now</button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="talents-content__pagination pagination">
+              <ul class="pagination__list">
+                <li class="pagination__item">
+                  <span class="pagination__link pagination__link--number pagination__link--active">1</span>
+                </li>
+                <li class="pagination__item"><a class="pagination__link pagination__link--number" href="#">2</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="also">
+      <div class="also__container">
+        <h2 class="also__title title">YOU MAY ALSO LIKE</h2>
+        <div class="also__slider also-slider">
+          <div class="also-slider__slide">
+            <a class="also-slider__slide-link" href="#">
+              <div class="also-slider__slide-content also-slider__slide-content--tribute">
+                <p class="also-slider__slide-text">TRIBUTE</p>
+              </div>
+            </a>
+          </div>
+          <div class="also-slider__slide">
+            <a class="also-slider__slide-link" href="#">
+              <div class="also-slider__slide-content also-slider__slide-content--duos">
+                <p class="also-slider__slide-text">DUO’S</p>
+              </div>
+            </a>
+          </div>
+          <div class="also-slider__slide">
+            <a class="also-slider__slide-link" href="#">
+              <div class="also-slider__slide-content also-slider__slide-content--female">
+                <p class="also-slider__slide-text">FEMALE</p>
+              </div>
+            </a>
+          </div>
+          <div class="also-slider__slide">
+            <a class="also-slider__slide-link" href="#">
+              <div class="also-slider__slide-content also-slider__slide-content--groups">
+                <p class="also-slider__slide-text">Groups</p>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </section>

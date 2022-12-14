@@ -1,0 +1,77 @@
+.also-slider {
+  position: relative;
+
+  .slick-list{
+    overflow: hidden;
+    width: 100% ;
+  }
+  
+  .slick-track {
+    display: flex;
+    margin-left: -29px;
+  }
+
+  .slick-arrow {
+    position: absolute;
+    bottom: -100px;
+    right: 0;
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid $white;
+    cursor: pointer;
+  }
+
+  .slick-prev {
+    right: 60px;
+  }
+
+}
+
+.also-slider__slide {
+  margin: 0 29px;
+}
+
+.also-slider__slide-link {
+  display: block;
+  width: 474px;
+
+}
+
+.also-slider__slide-content {
+  width: 474px;
+  height: 493px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &--tribute {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("@img/also-1@1x.jpg");
+  }
+
+  &--duos {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("@img/also-2@1x.jpg");
+  }
+
+  &--female {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("@img/also-3@1x.jpg");
+  }
+
+  &--groups {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("@img/also-2@1x.jpg");
+  }
+}
+
+.also-slider__slide-text {
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 120px;
+  color: $wild-sand;
+  text-transform: uppercase;
+}

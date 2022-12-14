@@ -1,0 +1,121 @@
+.talents-content {
+
+}
+
+.talents-content__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 38px;
+}
+
+.talents-content__select {
+  font-weight: 300;
+  font-size: $font-size-normal;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: $gray;
+  background-color: transparent;
+  border: none;
+  padding-right: 10px;
+}
+
+.talents-content__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px -15px 85px;
+}
+
+.talents-content__item {
+  padding: 15px;
+  flex: 0 1 33.3333%;
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: scale(1.15);
+
+    .talent-card .talent-card__info {
+      // display: none;
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    .talent-card .talent-card__details {
+      // display: flex;
+      opacity: 1;
+      visibility: visible;
+      z-index: 5;
+    }
+
+    .talent-card .talent-card__image {
+      transition: filter 0.3s;
+      filter:brightness(0.5);
+    }
+  }
+
+  .talent-card {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    position: relative;
+
+    &::before {
+      display: none;
+    }
+
+    .talent-card__image {
+      position: static;
+      transition: filter 0.3s;
+    }
+
+    .talent-card__info {
+      opacity: 1;
+      visibility: visible;
+      position: absolute;
+      top: 0px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      padding: 30px 15px 30px 30px;
+      transition: all 0.3s;
+
+      .talent-card__name {
+        margin-top: 350px;
+      }
+    }
+
+    .talent-card__details {
+      // display: none;
+      transition: all 0.3s;
+      opacity: 0;
+      visibility: hidden;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      align-items: flex-start;
+      justify-content: space-between;
+      position: absolute;
+      top: 0px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 50px 15px 38px 58px;
+
+      .talent-card__name {
+        margin-top: 0;
+      }
+    }
+
+    // .talent-card__name {
+    //   margin-top: 0;
+    // }
+  }
+}
+
+.talents-content__pagination {
+  margin-bottom: 50px;
+}

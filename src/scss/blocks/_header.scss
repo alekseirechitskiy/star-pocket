@@ -35,6 +35,12 @@
   max-width: 1450px;
   margin: 0 auto;
   padding: 0 15px;
+
+  &--wide {
+    max-width: 1580px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
 }
 
 .header__inner {

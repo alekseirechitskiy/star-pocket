@@ -1,4 +1,6 @@
 .talents-choise {
+  padding-bottom: 150px;
+  
   .talents-tabs__navigation-item {
     overflow: auto;
 
@@ -35,9 +37,9 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+
   @media #{$screen-768} {
     margin-bottom: 91px;
-    
   }
 }
 
@@ -72,7 +74,6 @@
     margin-top: -25px;
     width: 425px;
     height: 45px;
-
   }
 }
 
@@ -84,6 +85,7 @@
 .talents-choise__filters {
   width: 212px;
   margin-right: 153px;
+  flex-shrink: 0;
 }
 
 .talents-choise__filters-title {
@@ -92,4 +94,8 @@
   font-size: $font-size-large;
   line-height: 30px;
   margin-bottom: 40px;
+}
+
+.talents-choise__lists {
+  flex-grow: 1;
 }

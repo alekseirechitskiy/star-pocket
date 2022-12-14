@@ -1,5 +1,6 @@
 .filter {
   position: relative;
+  width: 100%;
 
   &:last-child {
     .filter__list::after {
