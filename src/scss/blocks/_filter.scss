@@ -1,6 +1,13 @@
 .filter {
+  position: relative;
 
+  &:last-child {
+    .filter__list::after {
+      display: none;
+    }
+  }
 }
+
 .filter__price-box {
   display: flex;
   align-items: center;

@@ -12,6 +12,10 @@
     height: 2px;
     background-image: radial-gradient(50% 50% at 50% 50%, #7C0566 0%, rgba(113, 78, 255, 0) 100%);
   }
+
+  &--closed {
+    display: none;
+  }
 }
 
 .filter-list__title {
@@ -35,5 +39,11 @@
     background-image: url("@img/icons/angle-top.svg");
     background-repeat: no-repeat;
     background-position: center;
+  }
+
+  &--closed {
+    &::after {
+      transform: rotate(180deg);
+    }
   }
 }
