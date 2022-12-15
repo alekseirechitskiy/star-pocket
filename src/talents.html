@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html class="html" lang="en">
+<html class="html" lang="en" id="talents">
 @@include('html/_head.html',{'title': 'Star Pocket - Talents'})
 
-<body class="body">
+<body class="body" >
   <!-- HEADER -->
   @@include('html/_header.html',{
     'header-bg': 'header--purple',
@@ -23,7 +23,12 @@
         </ul>
       </div>
     </div>
+
     <section class="talents-choise">
+      <button class="talents-choise__filter-button">
+        <img class="talents-choise__filter-image" src="@img/icons/filter.svg" alt="filter icon">
+      </button>
+
       <div class="talents-page__container">
         <div class="talents-choise__top">
           <div class="talents-choise__tabs  talents-tabs">
@@ -251,12 +256,14 @@
               <li class="talents-content__item">
                 <div class="talent-card">
                   <img class="talent-card__image" src="@img/talents/talent-6@1x.jpg" srcset="@img/talents/talent-6@2x.jpg 2x" alt="Bryan Foster photo">
-                  <div class="talent-card__info">
-                    <h5 class="talent-card__name">Bryan Foster</h5>
-                    <p class="talent-card__text">
-                      Dubbed “America’s new romantic singing sensation”, tenor Bryan Foster is the Brooklyn-born, Nashville-based singer and songwriter.
-                    </p>
-                  </div>
+                  <a class="talent-card__link" href="#">
+                    <div class="talent-card__info">
+                      <h5 class="talent-card__name">Bryan Foster</h5>
+                      <p class="talent-card__text">
+                        Dubbed “America’s new romantic singing sensation”, tenor Bryan Foster is the Brooklyn-born, Nashville-based singer and songwriter.
+                      </p>
+                    </div>
+                  </a>
                   <div class="talent-card__details">
                     <h5 class="talent-card__name">Bryan Foster</h5>
                     <ul class="talent-card__details-list details-list">
@@ -271,19 +278,21 @@
                         from 1500$
                       </li>
                     </ul>
-                    <button class="details-list__button">Book Now</button>
+                    <a class="details-list__button" href="#">Book Now</a>
                   </div>
                 </div>
               </li>
               <li class="talents-content__item">
                 <div class="talent-card">
                   <img class="talent-card__image" src="@img/talents/talent-7@1x.jpg" srcset="@img/talents/talent-7@2x.jpg 2x" alt="Saif Rose photo">
-                  <div class="talent-card__info">
-                    <h5 class="talent-card__name">Saif Rose</h5>
-                    <p class="talent-card__text">
-                      From the bright lights of the Las Vegas strip, this America’s Got Talent Semi-Finalist brings you soulful sounds from Motown, the blues.
-                    </p>
-                  </div>
+                  <a class="talent-card__link" href="#">
+                    <div class="talent-card__info">
+                      <h5 class="talent-card__name">Saif Rose</h5>
+                      <p class="talent-card__text">
+                        From the bright lights of the Las Vegas strip, this America’s Got Talent Semi-Finalist brings you soulful sounds from Motown, the blues.
+                      </p>
+                    </div>
+                  </a>
                   <div class="talent-card__details">
                     <h5 class="talent-card__name">Saif Rose</h5>
                     <ul class="talent-card__details-list details-list">
@@ -304,12 +313,14 @@
               <li class="talents-content__item">
                 <div class="talent-card">
                   <img class="talent-card__image" src="@img/talents/talent-8@1x.jpg" srcset="@img/talents/talent-8@2x.jpg 2x" alt="Jamal photo">
-                  <div class="talent-card__info">
-                    <h5 class="talent-card__name">Jamal</h5>
-                    <p class="talent-card__text">
-                      Raised on the classic Motown and Stax soul sounds of Stevie Wonder, Sam Cooke, Jamal brings his unique smooth soul around the world. 
-                    </p>
-                  </div>
+                  <a class="talent-card__link" href="#">
+                    <div class="talent-card__info">
+                      <h5 class="talent-card__name">Jamal</h5>
+                      <p class="talent-card__text">
+                        Raised on the classic Motown and Stax soul sounds of Stevie Wonder, Sam Cooke, Jamal brings his unique smooth soul around the world. 
+                      </p>
+                    </div>
+                  </a>
                   <div class="talent-card__details">
                     <h5 class="talent-card__name">Jamal</h5>
                     <ul class="talent-card__details-list details-list">
@@ -331,12 +342,14 @@
               <li class="talents-content__item">
                 <div class="talent-card">
                   <img class="talent-card__image" src="@img/talents/talent-2-1@1x.jpg" srcset="@img/talents/talent-2-1@2x.jpg 2x" alt="ANTHONY NUNZIATA photo">
-                  <div class="talent-card__info">
-                    <h5 class="talent-card__name">ANTHONY NUNZIATA</h5>
-                    <p class="talent-card__text">
-                      Singer and songwriter who brings his soulful voice to classic jazz, pop standards, classical-crossover and his timeless original music.
-                    </p>
-                  </div>
+                  <a class="talent-card__link" href="#">
+                    <div class="talent-card__info">
+                      <h5 class="talent-card__name">ANTHONY NUNZIATA</h5>
+                      <p class="talent-card__text">
+                        Singer and songwriter who brings his soulful voice to classic jazz, pop standards, classical-crossover and his timeless original music.
+                      </p>
+                    </div>
+                  </a>
                   <div class="talent-card__details">
                     <h5 class="talent-card__name">ANTHONY NUNZIATA</h5>
                     <ul class="talent-card__details-list details-list">
@@ -357,12 +370,14 @@
               <li class="talents-content__item">
                 <div class="talent-card">
                   <img class="talent-card__image" src="@img/talents/talent-9@1x.jpg" srcset="@img/talents/talent-9@2x.jpg 2x" alt="JAY JAY photo">
-                  <div class="talent-card__info">
-                    <h5 class="talent-card__name">JAY JAY</h5>
-                    <p class="talent-card__text">
-                      American singer, songwriter, record producer, multi-instrumentalist and dancer. Known for his stage performances and retrospective artistry.
-                    </p>
-                  </div>
+                  <a class="talent-card__link" href="#">
+                    <div class="talent-card__info">
+                      <h5 class="talent-card__name">JAY JAY</h5>
+                      <p class="talent-card__text">
+                        American singer, songwriter, record producer, multi-instrumentalist and dancer. Known for his stage performances and retrospective artistry.
+                      </p>
+                    </div>
+                  </a>
                   <div class="talent-card__details">
                     <h5 class="talent-card__name">JAY JAY</h5>
                     <ul class="talent-card__details-list details-list">
@@ -384,12 +399,14 @@
               <li class="talents-content__item">
                 <div class="talent-card">
                   <img class="talent-card__image" src="@img/talents/talent-16@1x.jpg" srcset="@img/talents/talent-16@2x.jpg 2x" alt="ROBERT KAY photo">
-                  <div class="talent-card__info">
-                    <h5 class="talent-card__name">ROBERT KAY</h5>
-                    <p class="talent-card__text">
-                      American singer, songwriter. Known for his stage performances and retrospective artistry.
-                    </p>
-                  </div>
+                  <a class="talent-card__link" href="#">
+                    <div class="talent-card__info">
+                      <h5 class="talent-card__name">ROBERT KAY</h5>
+                      <p class="talent-card__text">
+                        American singer, songwriter. Known for his stage performances and retrospective artistry.
+                      </p>
+                    </div>
+                  </a>
                   <div class="talent-card__details">
                     <h5 class="talent-card__name">ROBERT KAY</h5>
                     <ul class="talent-card__details-list details-list">
@@ -411,12 +428,14 @@
               <li class="talents-content__item">
                 <div class="talent-card">
                   <img class="talent-card__image" src="@img/talents/talent-10@1x.jpg" srcset="@img/talents/talent-10@2x.jpg 2x" alt="Terry Hughes photo">
-                  <div class="talent-card__info">
-                    <h5 class="talent-card__name">Terry Hughes</h5>
-                    <p class="talent-card__text">
-                      Terry Hughes is a rising star that has captivated audiences all over the world! 
-                    </p>
-                  </div>
+                  <a class="talent-card__link" href="#">
+                    <div class="talent-card__info">
+                      <h5 class="talent-card__name">Terry Hughes</h5>
+                      <p class="talent-card__text">
+                        Terry Hughes is a rising star that has captivated audiences all over the world! 
+                      </p>
+                    </div>
+                  </a>
                   <div class="talent-card__details">
                     <h5 class="talent-card__name">Terry Hughes</h5>
                     <ul class="talent-card__details-list details-list">
@@ -438,12 +457,14 @@
               <li class="talents-content__item">
                 <div class="talent-card">
                   <img class="talent-card__image" src="@img/talents/talent-14@1x.jpg" srcset="@img/talents/talent-14@2x.jpg 2x" alt="Leonard Richardson photo">
-                  <div class="talent-card__info">
-                    <h5 class="talent-card__name">Leonard Richardson</h5>
-                    <p class="talent-card__text">
-                      Rock, drive and expression - that's what you can see and feel at Leonardo's concerts. He will surprise you with his vocals and guitar skills.
-                    </p>
-                  </div>
+                  <a class="talent-card__link" href="#">
+                    <div class="talent-card__info">
+                      <h5 class="talent-card__name">Leonard Richardson</h5>
+                      <p class="talent-card__text">
+                        Rock, drive and expression - that's what you can see and feel at Leonardo's concerts. He will surprise you with his vocals and guitar skills.
+                      </p>
+                    </div>
+                  </a>
                   <div class="talent-card__details">
                     <h5 class="talent-card__name">Leonard Richardson</h5>
                     <ul class="talent-card__details-list details-list">
@@ -465,12 +486,14 @@
               <li class="talents-content__item">
                 <div class="talent-card">
                   <img class="talent-card__image" src="@img/talents/talent-15@1x.jpg" srcset="@img/talents/talent-15@2x.jpg 2x" alt="Wayne Lopez photo">
-                  <div class="talent-card__info">
-                    <h5 class="talent-card__name">Wayne Lopez</h5>
-                    <p class="talent-card__text">
-                      Formerly lead vocalist with legends ‘Paul Revere And The Raiders’, and first guitarist with ‘The Backstreet Boys’.
-                    </p>
-                  </div>
+                  <a class="talent-card__link" href="#">
+                    <div class="talent-card__info">
+                      <h5 class="talent-card__name">Wayne Lopez</h5>
+                      <p class="talent-card__text">
+                        Formerly lead vocalist with legends ‘Paul Revere And The Raiders’, and first guitarist with ‘The Backstreet Boys’.
+                      </p>
+                    </div>
+                  </a>
                   <div class="talent-card__details">
                     <h5 class="talent-card__name">Wayne Lopez</h5>
                     <ul class="talent-card__details-list details-list">
@@ -501,6 +524,7 @@
         </div>
       </div>
     </section>
+    
     <section class="also">
       <div class="also__container">
         <h2 class="also__title title">YOU MAY ALSO LIKE</h2>

@@ -15,3 +15,13 @@ export function isWebp() {
         document.documentElement.classList.add(className);
     });
 }
+
+export function toggleFilters() {
+  const filtesToggler = document.querySelector('.talents-choise__filter-button');
+  const ftiltersBlock = document.querySelector('.talents-choise__filters');
+
+  filtesToggler.addEventListener('click', () => {
+    console.log('clicked');
+    ftiltersBlock.classList.toggle('talents-choise__filters--open');
+  });
+}

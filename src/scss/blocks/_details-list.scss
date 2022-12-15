@@ -3,24 +3,38 @@
 }
 
 .details-list__item {
-  padding-left: 40px;
-  font-size: $font-size-normal;
-  line-height: 24px;
-  color: $wild-sand;
-  text-shadow: 0px 0px 7px rgba($white, 0.8);
-  margin-bottom: 12px;
-  position: relative;
-
+  @media #{$screen-768} {
+    padding-left: 40px;
+    font-size: $font-size-small;
+    line-height: 20px;
+    color: $wild-sand;
+    text-shadow: 0px 0px 7px rgba($white, 0.8);
+    margin-bottom: 8px;
+    position: relative;
+  }
+  
+  @media #{$screen-1440} {
+    margin-bottom: 12px;
+    font-size: $font-size-normal;
+    line-height: 24px;
+  }
+  
   &::before {
     position: absolute;
     content: "";
     left: 0;
     top: 0;
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    
+    @media #{$screen-1440} {
+      width: 24px;
+      height: 24px;
+    }
+
   }
 
   &:last-child {
@@ -36,11 +50,12 @@
 
 .details-list__item-show {
   &::before{
-    width: 22px;
+    width: 21px;
     height: 31px;
     top: 50%;
     margin-top: -15px;
     background-image: url("@img/icons/microphone-purple.svg");
+    background-size: contain;
   }
 }
 
@@ -51,12 +66,21 @@
 }
 
 .details-list__button {
-  font-size: $font-size-normal;
-  line-height: 24px;
-  color: $wild-sand;
-  background-color: $cardinal-pink;
-  border: none;
-  border-radius: 30px;
-  padding: 10px 45px;
-  cursor: pointer;
+  @media #{$screen-768} {
+    font-size: $font-size-small;
+    line-height: 20px;
+    color: $wild-sand;
+    background-color: $cardinal-pink;
+    border: none;
+    border-radius: 30px;
+    padding: 5px 45px;
+    cursor: pointer;
+  }
+  
+  @media #{$screen-1440} {
+    font-size: $font-size-normal;
+    line-height: 24px;
+    padding: 10px 45px;
+
+  }
 }

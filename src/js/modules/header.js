@@ -1,8 +1,18 @@
 export default function () {
 
+  const htmlId = document.querySelector('.html').id;
   const body = document.querySelector('.body');
   const menuButton = document.querySelector('.header__toggle');
   const menuList = document.querySelector('.menu__list');
+
+  // определение активного пункта меню
+  const menuLinksList = document.querySelectorAll('.menu__link');
+  menuLinksList.forEach(i => {
+    if (i.dataset.name === htmlId) {
+      i.classList.add('menu__link--active');
+      console.log(i);
+    }
+  })
 
   // Открытие меню
   const toggleMenu = () => {

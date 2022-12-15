@@ -1,13 +1,19 @@
 .talents-choise {
   padding-bottom: 150px;
+  position: relative;
   
   .talents-tabs__navigation-item {
     overflow: auto;
 
     @media #{$screen-768} {
       padding-bottom: 5px;
+      margin-right: 30px;
+    }
+
+    @media #{$screen-1280} {
       margin-right: 50px;
     }
+
 
     &:first-child {
       .talents-tabs__navigation-link {
@@ -32,14 +38,38 @@
   }
 }
 
+.talents-choise__filter-button {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 50px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid $cardinal-pink;
+  background-color: $cardinal-pink;
+  padding: 0;
+  z-index: 9999;
+
+  @media #{$screen-768} {
+    display: none;
+  }
+}
+
 .talents-choise__top {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 30px;
 
-  @media #{$screen-768} {
-    margin-bottom: 91px;
+  @media #{$screen-1280} {
+    margin-bottom: 50px;
+  }
+
+  @media #{$screen-1440} {
+    margin-bottom: 90px;
   }
 }
 
@@ -61,7 +91,7 @@
   background: #141414;
   border: 1px solid #828282;
   border-radius: 30px;  
-  padding: 0 20px 0 70px;
+  padding: 0 20px 0 50px;
   font-weight: 200;
   font-size: 15px;
   line-height: 22px;
@@ -69,23 +99,66 @@
   background-image: url("@img/icons/search.svg");
   background-repeat: no-repeat;
   background-position: 20px center;
+  margin-top: 15px;
 
   @media #{$screen-768} {
-    margin-top: -25px;
-    width: 425px;
+    margin-top: 0;
+    width: 70%;
     height: 45px;
+  }
+  
+  @media #{$screen-1024} {
+    width: 250px;
+    margin-top: -25px;
+  }
+
+  @media #{$screen-1280} {
+    padding: 0 20px 0 70px;
+    width: 425px;
   }
 }
 
 .talents-choise__content {
   display: flex;
   flex-wrap: nowrap;
+  position: relative;
 }
 
 .talents-choise__filters {
-  width: 212px;
-  margin-right: 153px;
+  // display: none;
+  position: absolute;
+  transform: translateX(-150%);
+  transition: transform 0.3s;
+  // width: 212px;
+  // margin-right: 100px;
   flex-shrink: 0;
+  background-color: $cod-gray;
+  z-index: 100;
+  left: -15px;
+  right: -15px;
+  padding: 50px 15px;
+  box-shadow: 0px 0px 15px 5px rgba($cardinal-pink, 0.5);
+  // width: 100%;
+  // width: 100%;
+
+  @media #{$screen-768} {
+    display: block;
+    transform: translateX(0);
+    width: 212px;
+    position: static;
+    padding: 0;
+    box-shadow: none;
+    margin-right: 30px;
+
+  }
+
+  @media #{$screen-1280} {
+    margin-right: 150px;
+  }
+
+  &--open {
+    transform: translateX(0);
+  }
 }
 
 .talents-choise__filters-title {

@@ -16,6 +16,7 @@ import alsoSlider from './modules/alsoSlider.js';
 
 wowModule();
 functions.isWebp();
+functions.toggleFilters();
 headerScripts();
 talentsSection();
 talentsSlider();
