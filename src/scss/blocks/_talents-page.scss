@@ -1,5 +1,20 @@
 .talents-page {
   position: relative;
+
+  @media #{$screen-1024} {
+    &::before{
+      position: absolute;
+      content: "";
+      width: 1164px;
+      height: 1164px;
+      left: -770px;
+      bottom: 120px;
+      background-image: url("@img/bg-circle-purple.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+
 }
 
 .talents-page__container {

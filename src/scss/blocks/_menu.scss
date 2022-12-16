@@ -89,6 +89,14 @@
     padding-bottom: 4px;
     border-bottom: 2px solid rgba($wild-sand, 0.2);
 
+    @media #{$screen-768} {
+      padding-bottom: 0
+    }
+    
+    @media #{$screen-992} {
+      padding-bottom: 4px;
+    }
+
     &:hover {
       opacity: 1 !important; 
     }

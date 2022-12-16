@@ -8,12 +8,20 @@
   
   .slick-track {
     display: flex;
-    margin-left: -29px;
+    margin-left: -5px;
+
+    @media #{$screen-768} {
+      margin-left: -10px;
+    }
+
+    @media #{$screen-1440} {
+      margin-left: -29px;
+    }
   }
 
   .slick-arrow {
     position: absolute;
-    bottom: -100px;
+    bottom: -60px;
     right: 0;
     z-index: 10;
     width: 40px;
@@ -22,27 +30,58 @@
     background-color: transparent;
     border: 1px solid $white;
     cursor: pointer;
+
+    @media #{$screen-768} {
+      bottom: -100px;
+    }
   }
 
   .slick-prev {
-    right: 60px;
+    right: 50px;
+
+    @media #{$screen-768} {
+      right: 55px;
+    }
+
+    @media #{$screen-1440} {
+      right: 60px;
+    }
   }
 
 }
 
 .also-slider__slide {
-  margin: 0 29px;
+  margin: 0 5px;
+
+  @media #{$screen-768} {
+    margin: 0 10px;
+  }
+
+  @media #{$screen-1440} {
+    margin: 0 29px;
+  }
 }
 
 .also-slider__slide-link {
   display: block;
-  width: 474px;
+  width: 234px;
 
+  @media #{$screen-768} {
+    width: 300px;
+  }
+
+  @media #{$screen-1280} {
+    width: 350px;
+  }
+
+  @media #{$screen-1440} {
+    width: 474px;
+  }
 }
 
 .also-slider__slide-content {
-  width: 474px;
-  height: 493px;
+  width: 234px;
+  height: 234px;
   border-radius: 16px;
   display: flex;
   align-items: center;
@@ -50,6 +89,21 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
+  @media #{$screen-768} {
+    width: 300px;
+    height: 300px;
+  }
+
+  @media #{$screen-1280} {
+    width: 350px;
+    height: 350px;
+  }
+
+  @media #{$screen-1440} {
+    width: 474px;
+    height: 493px;
+  }
 
   &--tribute {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("@img/also-1@1x.jpg");
@@ -86,8 +140,18 @@
 
 .also-slider__slide-text {
   font-weight: 900;
-  font-size: 80px;
-  line-height: 120px;
+  font-size: $font-size-large;
+  line-height: 30px;
   color: $wild-sand;
   text-transform: uppercase;
+
+  @media #{$screen-768} {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  @media #{$screen-1440} {
+    font-size: 80px;
+    line-height: 120px;
+  }
 }

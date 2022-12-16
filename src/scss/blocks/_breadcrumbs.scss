@@ -12,12 +12,12 @@
   flex-wrap: wrap;
   font-size: $font-size-extraSmall;
   line-height: 18px;
+  color: rgba($wild-sand, 0.5);
   margin: 0;
 
-  @media #{$tablet} {
+  @media #{$screen-768} {
     font-size: $font-size-small;
     line-height: 20px;
-    color: rgba($wild-sand, 0.5);
   }
 }
 

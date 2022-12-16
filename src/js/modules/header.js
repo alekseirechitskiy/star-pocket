@@ -10,7 +10,6 @@ export default function () {
   menuLinksList.forEach(i => {
     if (i.dataset.name === htmlId) {
       i.classList.add('menu__link--active');
-      console.log(i);
     }
   })
 

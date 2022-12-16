@@ -3,3 +3,9 @@
   margin: 0;
   padding: 0;
 }
+
+.html:not(html#index){
+  .header__toggle span {
+    background-color: $wild-sand;
+  }
+}
