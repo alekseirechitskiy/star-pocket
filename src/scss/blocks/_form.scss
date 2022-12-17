@@ -203,7 +203,7 @@
   background-image: url("@img/icons/checkbox-plus.svg");
 }
 
-.form__checkbox-input-iconed:checked+.form__checkbox-text::before {
+.form__checkbox-input-iconed[checked='checked']+.form__checkbox-text::before {
   border-color: $cardinal-pink;
   background-repeat: no-repeat;
   background-position: center;

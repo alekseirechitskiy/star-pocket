@@ -6,8 +6,13 @@
     height: auto;
   }
 
-  @media #{$screen-992} {
+  @media #{$screen-992} and (min-height: 860px) {
     width: 163px;
     height: 45px;
   }
+
+  // @media #{$screen-992} {
+  //   width: 163px;
+  //   height: 45px;
+  // }
 }

@@ -74,12 +74,12 @@
   text-decoration: none;
   color: $wild-sand;
 
-  @media #{$screen-768} {
+  @media #{$screen-768}  {
     font-size: $font-size-normal;
     line-height: 26px;
   }
 
-  @media #{$screen-992} {
+  @media #{$screen-992} and (min-height: 860px){
     font-size: $font-size-large;
     line-height: 40px;
   }
@@ -89,13 +89,13 @@
     padding-bottom: 4px;
     border-bottom: 2px solid rgba($wild-sand, 0.2);
 
-    @media #{$screen-768} {
+    @media #{$screen-768}  {
       padding-bottom: 0
     }
     
-    @media #{$screen-992} {
-      padding-bottom: 4px;
-    }
+    // @media #{$screen-992} {
+    //   padding-bottom: 4px;
+    // }
 
     &:hover {
       opacity: 1 !important; 

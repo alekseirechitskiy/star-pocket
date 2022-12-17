@@ -12,6 +12,7 @@ import wowModule from './modules/wowModule.js';
 import ionSlider from './modules/ionSlider.js';
 import filters from './modules/filters.js';
 import alsoSlider from './modules/alsoSlider.js';
+import popup from './modules/popup.js';
 
 
 wowModule();
@@ -27,3 +28,4 @@ ionSlider();
 filters();
 pagination();
 alsoSlider();
+popup();
