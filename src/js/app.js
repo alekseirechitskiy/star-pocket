@@ -13,6 +13,7 @@ import ionSlider from './modules/ionSlider.js';
 import filters from './modules/filters.js';
 import alsoSlider from './modules/alsoSlider.js';
 import popup from './modules/popup.js';
+import watchedRecentlySlider from './modules/watchedRecentlySlider.js';
 
 
 wowModule();
@@ -29,3 +30,4 @@ filters();
 pagination();
 alsoSlider();
 popup();
+watchedRecentlySlider();

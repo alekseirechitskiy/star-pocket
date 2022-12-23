@@ -2,4 +2,13 @@
   max-width: 1430px;
   margin: 0 auto;
   padding: 0 15px;
+
+  &--personal-page {
+    max-width: 1450px;
+
+  }
+
+  &--wide {
+    max-width: 1580px;
+  }
 }

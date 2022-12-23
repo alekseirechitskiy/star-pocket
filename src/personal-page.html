@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html class="html" lang="en">
+@@include('html/_head.html',{'title': 'Star Pocket - Talent'})
+
+<body class="body">
+  <!-- HEADER -->
+  @@include('html/_header.html',{
+    'header-bg': 'header--blue',
+    'header-pos': 'header--static',
+    'header-container': 'container container--personal-page'
+  })
+
+  <!-- MAIN -->
+  <main class="main personal-page" >
+    <div class="breadcrumbs">
+      <div class="container container--personal-page">
+        <ul class="breadcrumbs__list">
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="index.html">Home page</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="talents.html">Our Talents</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="#">Comedy</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <span>Daniel Sloss</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="personal-hero">
+      <div class="container container--personal-page">
+        <h1 class="personal-hero__title title title--secondary">DANIEL SLOSS</h1>
+        <div class="personal-hero__media">
+          <div class="personal-hero__col">
+            <img class="personal-hero__image personal-hero__image--main" src="@img/personal-1@1x.jpg" srcset="@img/personal-1@2x.jpg 2x" alt="DANIEL SLOSS photo #1">
+          </div>
+          <div class="personal-hero__col">
+            <div class="personal-hero__col-line personal-hero__col-line--top">
+              <div class="personal-hero__image-box">
+                <img class="personal-hero__image" src="@img/personal-2@1x.jpg" srcset="@img/personal-2@2x.jpg 2x" alt="DANIEL SLOSS photo #2">
+              </div>
+              <div class="personal-hero__image-box">
+                <img class="personal-hero__image" src="@img/talents/talent-13@1x.jpg" srcset="@img/talents/talent-13@2x.jpg 2x" alt="DANIEL SLOSS photo #3">
+              </div>
+            </div>
+            <div class="personal-hero__col-line personal-hero__col-line--video">
+              <img class="personal-hero__image personal-hero__image--video" class="personal-hero__image" src="@img/personal-3@1x.jpg" srcset="@img/personal-3@2x.jpg 2x" alt="DANIEL SLOSS photo #4">
+              <button class="personal-hero__button button">
+                <!-- <img class="personal-hero__play-video" src="@img/play-video.svg" alt="play video"> -->
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="personal-about">
+      <div class="container container--personal-page">
+        <div class="personal-about__inner">
+          <div class="personal-about__info">
+            <h2 class="personal-about__title title title--secondary">About</h2>
+            <div class="personal-about__text-box">
+              <p class="personal-about__text">Daniel Sloss is an internationally acclaimed and award-winning Scottish comedian.</p>
+              <p class="personal-about__text">His extraordinary tenth solo show ‘Daniel Sloss: X’ received rave reviews across its record-breaking, global tour that spanned an incredible 300 performances across 40 countries. Filmed in Sydney, ‘X’ premiered on HBO in the USA and Canada in 2019 and subsequently made history with its UK release, becoming the first comedy special to make its national debut on the big screen, exclusively at Vue in February 2020.</p>
+            </div>
+            <div class="personal-about__lsits">
+              <ul class="personal-about__lsit">
+                <li class="personal-about__lsit-item personal-about__lsit-item--duration">
+                  120 minutes
+                </li>
+                <li class="personal-about__lsit-item personal-about__lsit-item--show">
+                  Stund Up Show
+                </li>
+              </ul>
+              <ul class="personal-about__lsit">
+                <li class="personal-about__lsit-item personal-about__lsit-item--price">
+                  From 8000$
+                </li>
+                <li class="personal-about__lsit-item personal-about__lsit-item--location">
+                  USA Wisconsin
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="personal-about__calendar calendar">
+            <div class="calendar__top">
+              <button class="calendar__button calendar__button--prev button">
+                <svg width="8" height="16" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7.33594 14.9697L1.27533 8.00003L7.33594 1.03033" stroke="#828282"/>
+                </svg>
+              </button>
+              <span class="calendar__month">MAY 2022</span>
+              <button class="calendar__button calendar__button--next button">
+                <svg width="8" height="16" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0.664062 14.9697L6.72467 8.00003L0.664063 1.03033" stroke="#828282"/>
+                </svg>
+              </button>
+            </div>
+            <div class="calendar__days">
+              <div class="calendar__row calendar__row--days-names">
+                <div>SUN</div>
+                <div>MON</div>
+                <div>TUE</div>
+                <div>WED</div>
+                <div>THU</div>
+                <div>FRI</div>
+                <div>SAT</div>
+              </div>
+              <div class="calendar__row calendar__row--days-number">
+                <div class="calendar__day calendar__day--another-month"><p>25</p>
+                </div>
+                <div class="calendar__day calendar__day--another-month"><p>26</p>
+                </div>
+                <div class="calendar__day calendar__day--another-month"><p>27</p></div>
+                <div class="calendar__day calendar__day--another-month"><p>28</p></div>
+                <div class="calendar__day calendar__day--another-month"><p>29</p></div>
+                <div class="calendar__day calendar__day--another-month"><p>30</p></div>
+                <div class="calendar__day"><p>1</p></div>
+              </div>
+              <div class="calendar__row calendar__row--days-number">
+                <div class="calendar__day"><p>2</p>
+                </div>
+                <div class="calendar__day"><p>3</p>
+                </div>
+                <div class="calendar__day"><p>4</p></div>
+                <div class="calendar__day calendar__day--booked"><p>5</p></div>
+                <div class="calendar__day"><p>6</p></div>
+                <div class="calendar__day calendar__day--booked"><p>7</p></div>
+                <div class="calendar__day"><p>8</p></div>
+              </div>
+              <div class="calendar__row calendar__row--days-number">
+                <div class="calendar__day"><p>9</p>
+                </div>
+                <div class="calendar__day"><p>10</p>
+                </div>
+                <div class="calendar__day"><p>11</p></div>
+                <div class="calendar__day"><p>12</p></div>
+                <div class="calendar__day"><p>13</p></div>
+                <div class="calendar__day calendar__day--booked"><p>14</p></div>
+                <div class="calendar__day"><p>15</p></div>
+              </div>
+              <div class="calendar__row calendar__row--days-number">
+                <div class="calendar__day"><p>16</p>
+                </div>
+                <div class="calendar__day"><p>17</p>
+                </div>
+                <div class="calendar__day calendar__day--booked"><p>18</p></div>
+                <div class="calendar__day"><p>19</p></div>
+                <div class="calendar__day"><p>20</p></div>
+                <div class="calendar__day"><p>21</p></div>
+                <div class="calendar__day"><p>22</p></div>
+              </div>
+              <div class="calendar__row calendar__row--days-number">
+                <div class="calendar__day"><p>23</p>
+                </div>
+                <div class="calendar__day calendar__day--booked"><p>24</p>
+                </div>
+                <div class="calendar__day"><p>25</p></div>
+                <div class="calendar__day"><p>26</p></div>
+                <div class="calendar__day calendar__day--booked"><p>27</p></div>
+                <div class="calendar__day"><p>28</p></div>
+                <div class="calendar__day"><p>29</p></div>
+              </div>
+              <div class="calendar__row calendar__row--days-number">
+                <div class="calendar__day"><p>30</p>
+                </div>
+                <div class="calendar__day"><p>31</p>
+                </div>
+                <div class="calendar__day calendar__day--another-month"><p>1</p></div>
+                <div class="calendar__day calendar__day--another-month"><p>2</p></div>
+                <div class="calendar__day calendar__day--another-month"><p>3</p></div>
+                <div class="calendar__day calendar__day--another-month"><p>4</p></div>
+                <div class="calendar__day"><p>5</p></div>
+              </div>
+            </div>
+            <div class="calendar__bottom">
+              <button class="calendar__button-book button">Book</button>
+              <button class="calendar__button-rider button">Download Rider</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="personal-reviews">
+      <div class="container container--personal-page">
+        <div class="personal-reviews__top">
+          <h2 class="personal-reviews__title title title--secondary">Reviews</h2>
+          <div class="personal-reviews__buttons-box">
+            <a class="personal-reviews__link" href="#">See all reviews</a>
+            <button class="personal-reviews__button button button--blue">Add a review</button>
+          </div>
+        </div>
+        <div class="personal-reviews__bottom">
+          <div class="personal-reviews__lists">
+            <ul class="personal-reviews__list">
+              <li class="personal-reviews__list-item review-card">
+                <img class="review-card__image" src="@img/review-1.jpeg" alt="author-#1 photo">
+                <div class="review-card__info">
+                  <h5 class="review-card__title">Julia COdossi</h5>
+                  <p class="review-card__position">PR-manager, Home Safe </p>
+                  <p class="review-card__text">The world's best stand-up comedian! Amazing boost of energy, we couldn't stop laughing! I hope I’ve been to more of his concerts.</p>
+                </div>
+              </li>
+              <li class="personal-reviews__list-item review-card">
+                <img class="review-card__image" src="@img/review-3.jpeg" alt="author-#3 photo">
+                <div class="review-card__info">
+                  <h5 class="review-card__title">Robet Stone</h5>
+                  <p class="review-card__position">Creative Director, American Express</p>
+                  <p class="review-card__text">If you need a special guest at the event, better than Daniel, you won’t find one. After his performance pain cheekbones and abdomen. He’s cool!</p>
+                </div>
+              </li>
+              <li class="personal-reviews__list-item review-card">
+                <img class="review-card__image" src="@img/review-2.jpeg" alt="author-#2 photo">
+                <div class="review-card__info">
+                  <h5 class="review-card__title">Mark spencer</h5>
+                  <p class="review-card__position">CEO, Cruise Line</p>
+                  <p class="review-card__text">Daniel is our special guest, with whom we close the cruise season. The result is always the same - the hall is crying with laughter.</p>
+                </div>
+              </li>
+              <li class="personal-reviews__list-item review-card">
+                <img class="review-card__image" src="@img/review-4.jpeg" alt="author-#4 photo">
+                <div class="review-card__info">
+                  <h5 class="review-card__title">darius skavo </h5>
+                  <p class="review-card__position">Event manager, Cunard</p>
+                  <p class="review-card__text">He is a star, he is already a legend. Besides, he is a good person. It is a pleasure to work with him.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="watched-recently">
+      <div class="container container--personal-page">
+        <h2 class="watched-recently__title title title--secondary">watched recently</h2>
+      </div>
+      <div class="watched-recently__slider tabs-content__slider tabs-slider">
+        <div class="talent-card talent-card--blue tabs-slider__slide">
+          <img class="talent-card__image" src="@img/talents/talent-11@1x.jpg" srcset="@img/talents/talent-11@2x.jpg 2x" alt="CHRIS CLARKE photo">
+          <p class="talent-card__label talent-card__label--blue">
+            Comedy
+          </p>
+          <h5 class="talent-card__name">CHRIS CLARKE</h5>
+          <p class="talent-card__text">
+            High energy with a vivid imagination, comedian Chris Clarke has cemented himself as one of the most enjoyable acts working today.
+          </p>
+        </div>
+        <div class="talent-card talent-card--blue">
+          <img class="talent-card__image" src="@img/talents/talent-12@1x.jpg" srcset="@img/talents/talent-12@2x.jpg 2x" alt="DAVE  BURLEIGH photo">
+          <p class="talent-card__label talent-card__label--blue">
+            Comedy
+          </p>
+          <h5 class="talent-card__name">DAVE  BURLEIGH</h5>
+          <p class="talent-card__text">
+            Burleigh’s laid back and easy going style, contrasted with his unique facial expressions will no doubt leave you with a lasting impression.
+          </p>
+        </div>
+        <div class="talent-card talent-card--pink">
+          <img class="talent-card__image" src="@img/talents/talent-8@1x.jpg" srcset="@img/talents/talent-8@2x.jpg 2x" alt="Jamal photo">
+          <p class="talent-card__label talent-card__label--blue">
+            Music
+          </p>
+          <h5 class="talent-card__name">Jamal</h5>
+          <p class="talent-card__text">
+            Raised on the classic Motown and Stax soul sounds of Stevie Wonder, Sam Cooke, Jamal brings his unique smooth soul around the world. 
+          </p>
+        </div>
+        <div class="talent-card talent-card--lime">
+          <img class="talent-card__image" src="@img/talents/talent-4@1x.jpg" srcset="@img/talents/talent-4@2x.jpg 2x" alt="ANTHONY NUNZIATA photo">
+          <p class="talent-card__label talent-card__label--blue">
+            Variety
+          </p>
+          <h5 class="talent-card__name">JOSHUA JAY</h5>
+          <p class="talent-card__text">
+            Joshua has designed illusions for the show Game of Thrones the author of four books on magic, is a former world champion of sleight of hand magic.
+          </p>
+        </div>
+        <div class="talent-card talent-card--yellow">
+          <img class="talent-card__image" src="@img/talents/talent-3@1x.jpg" srcset="@img/talents/talent-3@2x.jpg 2x" alt="ANTHONY NUNZIATA photo">
+          <p class="talent-card__label talent-card__label--blue">
+            Novelty
+          </p>
+          <h5 class="talent-card__name">sante fortunato</h5>
+          <p class="talent-card__text">
+            Sante Fortunato received her CEGEP College Diploma in 2011 from the National Circus School in Montreal, Canada. She was featured on TV Shows
+          </p>
+        </div>
+      </div>
+    </section>
+    
+  </main>
+  <!-- FOOTER -->
+  @@include('html/_footer.html',{})
+  <script src="js/app.min.js"></script>
+</body>
+
+</html>

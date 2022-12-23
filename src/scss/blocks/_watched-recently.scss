@@ -1,0 +1,23 @@
+.watched-recently {
+  margin-bottom: 60px;
+
+  @media #{$screen-768} {
+    margin-bottom: 240px;
+  }
+}
+
+.watched-recently__title {
+  margin-bottom: 20px;
+
+  @media #{$screen-768} {
+    margin-bottom: 80px;
+  }
+}
+
+.watched-recently__slider {
+  padding-left: 15px;
+
+  @media #{$screen-1440} {
+    margin-left: calc((100vw - 1445px) / 2);
+  }
+}
