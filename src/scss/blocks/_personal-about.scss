@@ -76,6 +76,10 @@
 .personal-about__lsits {
   display: flex;
   flex-wrap: wrap;
+
+  @media #{$screen-768} {
+    margin-bottom: 40px;
+  }
 }
 
 .personal-about__lsit {

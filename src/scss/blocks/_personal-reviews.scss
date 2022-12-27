@@ -3,6 +3,26 @@
 
   @media #{$screen-768} {
     margin-bottom: 150px;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: "";
+      top: -50%;
+      right: 0;
+      width: 876px;
+      height: 876px;
+      background-image: url("@img/bg-circle-3@1x.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      opacity: 0.5;
+      z-index: -1;
+
+      @media (min-resolution: 2dppx) {
+        background-image: url("@img/bg-circle-3@2x.png");
+      }
+    }
   }
 }
 
@@ -85,6 +105,7 @@
   line-height: 20px;
   color: $wild-sand;
   margin-right: 20px;
+  transition: opacity 0.3s;
 
   @media #{$screen-768} {
     font-weight: 500;
@@ -92,12 +113,17 @@
     line-height: 30px;
     margin-right: 40px;
   }
+
+  &:hover {
+    opacity: 0.5;
+  }
 }
 
 .personal-reviews__button {
   padding: 10px 30px;
   font-size: 15px;
   line-height: 20px;
+  cursor: pointer;
 
   @media #{$screen-768} {
     padding: 15px 50px;
