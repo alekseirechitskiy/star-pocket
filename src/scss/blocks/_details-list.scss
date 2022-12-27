@@ -34,7 +34,6 @@
       width: 24px;
       height: 24px;
     }
-
   }
 
   &:last-child {
@@ -65,6 +64,25 @@
   }
 }
 
+.details-list__link {
+  @media #{$screen-768} {
+    font-size: $font-size-small;
+    line-height: 20px;
+    color: $wild-sand;
+    background-color: $cardinal-pink;
+    border: none;
+    border-radius: 30px;
+    padding: 5px 45px;
+    cursor: pointer;
+  }
+  
+  @media #{$screen-1440} {
+    font-size: $font-size-normal;
+    line-height: 24px;
+    padding: 10px 45px;
+  }
+}
+
 .details-list__button {
   @media #{$screen-768} {
     font-size: $font-size-small;
@@ -81,6 +99,5 @@
     font-size: $font-size-normal;
     line-height: 24px;
     padding: 10px 45px;
-
   }
 }
