@@ -5,9 +5,11 @@
   @media #{$screen-768} {
     padding: 40px 0 36px;
   }
+
   @media #{$screen-992} {
     padding: 40px 0 46px;
   }
+
   @media #{$screen-1280} {
     padding: 40px 0 66px;
   }
@@ -48,4 +50,3 @@
     }
   }
 }
-

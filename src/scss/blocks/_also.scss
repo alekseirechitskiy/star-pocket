@@ -1,21 +1,5 @@
 .also {
   padding-bottom: 130px;
-  // position: relative;
-  // overflow: hidden;
-
-  // &::before{
-  //   position: absolute;
-  //   content: "";
-  //   width: 1164px;
-  //   height: 1164px;
-  //   left: -770px;
-  //   bottom: 120px;
-  //   border: 1px solid red;
-  //   background-image: url("@img/bg-circle-purple.png");
-  //   background-repeat: no-repeat;
-  //   background-size: contain;
-  //   // z-index: -1;
-  // }
 
   @media #{$screen-768} {
     padding-bottom: 200px;

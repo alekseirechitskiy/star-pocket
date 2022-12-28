@@ -45,24 +45,12 @@
   @media #{$screen-1440} {
     margin-bottom: 80px;
   }
-  
 }
 
 .talents__tabs-content {
   margin-left: auto;
-  // margin-bottom: 20px;
+
   @media #{$screen-1440} {
     margin-left: calc((100vw - 1445px) / 2);
-    // margin-bottom: 220px;
   }
-  // height: 700px;
-  // max-width: 1690px;
-  // z-index: 99;
-  // margin-left: 10%;
-  // margin-left: 12%;
-  // margin-left: auto;
-  // max-width: 88%;
-  // max-width: 1690px;
-  // width: 100%;
-  // padding-left: 15px;
 }

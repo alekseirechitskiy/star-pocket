@@ -14,10 +14,6 @@
   @media #{$screen-768} {
     flex-wrap: wrap;
     flex-direction: row;
-
-  }
-
-  @media #{$screen-1440} {
   }
 }
 
@@ -67,7 +63,6 @@
     margin-bottom: 30px;
   }
 
-
   &:last-child {
     margin-bottom: 0;
   }
@@ -107,7 +102,6 @@
   @media #{$screen-768} {
     margin-bottom: 50px;
     font-size: $font-size-normal;
-  
   }
 
   &::before{
@@ -173,12 +167,9 @@
 }
 
 .personal-about__calendar {
-  // flex-shrink: 1;
-  // width: 100%;
   width: 450px;
   max-width: 100%;
 
-  
   @media #{$screen-768} {
     width: 600px;
     max-width: 100%;

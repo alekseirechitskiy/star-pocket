@@ -16,7 +16,6 @@
       right: -30%;
       width: 1442px;
       height: 1442px;
-      // height: 2000px;
       z-index: -1;
       background-image: url("@img/bg-circle.png");
       background-repeat: no-repeat;
@@ -43,16 +42,12 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  
-  @media #{$screen-768} {
-    
-  }
 }
 
 .join__info {
   max-width: 604px;
   margin-bottom: 30px;
-  
+
   @media #{$screen-768} {
     margin-bottom: 0;
   }
@@ -102,7 +97,6 @@
   position: relative;
   padding-left: 44px;
 
-
   @media #{$screen-768} {
     font-weight: 300;
     font-size: $font-size-large;
@@ -147,8 +141,8 @@
 
 .join__form-box {
   width: 100%;
+  
   @media #{$screen-768} {
-
     width: 576px;
   }
 }

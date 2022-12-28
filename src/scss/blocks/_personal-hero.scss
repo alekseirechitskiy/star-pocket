@@ -12,7 +12,6 @@
 
   @media #{$screen-768} {
     margin-bottom: 60px;
-  
   }
 }
 
@@ -101,7 +100,7 @@
           display: block;
           max-width: 212px;
           flex: 1 1 100%;
-  
+
           .personal-hero__image {
             border-radius: 0 16px 0 0;
           }
@@ -125,7 +124,6 @@
 
   &--main {
     border-radius: 16px 16px 0 0;
-    // margin-bottom: 15px;
 
     @media #{$screen-768} {
       border-radius: 16px 0 0 16px;
@@ -158,12 +156,12 @@
   background-position: center;
   border-radius: 50%;
   cursor: pointer;
-  
+
   @media #{$screen-768} {
     width: 80px;
     height: 80px;
   }
-  
+
   @media #{$screen-1280} {
     width: 109px;
     height: 109px;

@@ -10,16 +10,10 @@
   align-items: flex-start;
   flex-shrink: 0;
 
-  @media #{$screen-1024} {
-    // width: 175px;
-    // height: 234px;
-  }
-
   @media #{$screen-768} {
     width: 374px;
     height: 500px;
     padding: 30px 16px 30px 30px;
-
   }
 
   &::before {
@@ -30,7 +24,6 @@
     right: 0;
     bottom: 0;
     height: 100%;
-    // background: linear-gradient(0deg, #2C13DD 0%, rgba(0, 0, 0, 0) 98.3%);
     opacity: 0.6;
     border-radius: 16px;
     z-index: 1;
@@ -112,12 +105,10 @@
   font-weight: 300;
   font-size: $font-size-extraSmall;
   line-height: 18px;
-
   z-index: 5;
 
   @media #{$screen-768} {
     padding: 5px 30px;
-
     font-size: $font-size-small;
     line-height: 21px;
   }
@@ -135,11 +126,9 @@
 
   @media #{$screen-768} {
     font-weight: 600;
-
     font-size: $font-size-normal;
     line-height: 24px;
     margin-bottom: 10px;
-
   }
 }
 

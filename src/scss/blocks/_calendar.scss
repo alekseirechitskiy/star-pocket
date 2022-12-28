@@ -1,8 +1,6 @@
 .calendar {
-  // width: 695px;
   border-radius: 16px;
   background-color: $thunder;
-  // height: auto;
   padding: 20px;
   
   @media #{$screen-768} {
@@ -93,12 +91,7 @@
         width: 65px;
       }
     }
-    // margin-bottom: 28px;
   }
-}
-
-.calendar__days-row {
-  // margin-bottom: 28px;
 }
 
 .calendar__day {
@@ -133,7 +126,6 @@
         background-color: $electric-violet;
       }
     }
-
   }
 
   &--another-month {
@@ -186,5 +178,4 @@
     font-size: $font-size-large;
     line-height: 30px;
   }
-  
 }

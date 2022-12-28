@@ -1,8 +1,7 @@
 .tabs-slider {
   z-index: 9999;
   position: relative;
-  // margin-bottom: 230px;
-  
+
   .slick-list{
     overflow: hidden;
     width: 100% ;
@@ -14,7 +13,6 @@
   
   .slick-slide {
     width: 175px;
-    // height: 234px;
     margin-right: 8px;
 
     @media #{$screen-768} {
@@ -53,7 +51,6 @@
 
     &:hover {
       opacity: 0.3;
-
     }
   }
 }

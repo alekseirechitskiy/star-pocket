@@ -1,13 +1,11 @@
 .about-item {
   box-sizing: border-box;
   display: flex;
-  // align-items: center;
 
   &:last-child {
     .about-item__text{
       display: none;
-      // margin-right: 0;
-      // margin-left: 0;
+
       @media #{$screen-768} {
         display: block;
         order: 1;
@@ -31,9 +29,7 @@
   background: $cod-gray;
   align-self: center;
   flex-shrink: 1;
-  // max-width: 100%;
   width: 100%;
-  // padding: 0 15px;
   overflow: hidden;
   margin: 0;
 
@@ -52,7 +48,6 @@
     padding: 0 46px;
   }
 
-
   @media #{$screen-1440} {
     font-size: $font-size-large;
     line-height: 30px;
@@ -61,8 +56,6 @@
 }
 
 .about-item__image {
-  // width: 100%;
-  // width: 50%;
   display: none;
   flex-shrink: 1;
   object-fit: cover;

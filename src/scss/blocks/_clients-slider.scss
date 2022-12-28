@@ -29,17 +29,14 @@
 }
 
 .clients-slider__item-wrapper {
-  // margin: 0 44px;
   box-sizing: border-box;;
-  // width: 187px;
-  // border:1px solid pink;
   text-align: center;
- 
 }
 
 .clients-slider__logo {
   height: 40px;
   vertical-align: bottom;
+
   @media#{$screen-768} {
     height: auto;
   }
