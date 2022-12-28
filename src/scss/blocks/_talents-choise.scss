@@ -7,7 +7,7 @@
 
   @media #{$screen-1024} {
     overflow: hidden;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
 
     &::before{
       position: absolute;
@@ -23,10 +23,9 @@
     }
   }
 
-  @media #{$screen-1280} {
-    padding-bottom: 150px;
-
-  }
+  // @media #{$screen-1280} {
+  //   padding-bottom: 150px;
+  // }
 
   .talents-tabs__navigation-item {
     overflow: auto;
