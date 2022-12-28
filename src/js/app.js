@@ -15,7 +15,6 @@ import alsoSlider from './modules/alsoSlider.js';
 import popup from './modules/popup.js';
 import watchedRecentlySlider from './modules/watchedRecentlySlider.js';
 
-
 wowModule();
 functions.isWebp();
 functions.toggleFilters();

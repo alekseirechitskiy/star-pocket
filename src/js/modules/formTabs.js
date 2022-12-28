@@ -10,6 +10,4 @@ export default function () {
     $('.form-box__content-item').removeClass('form-box__content-item--active');
     $($(this).attr('href')).addClass('form-box__content-item--active');
   })
-
 };
-

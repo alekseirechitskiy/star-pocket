@@ -1,5 +1,4 @@
 export default function () {
-
   const htmlId = document.querySelector('.html').id;
   const html = document.querySelector('.html');
   const body = document.querySelector('.body');
@@ -41,25 +40,4 @@ export default function () {
     }
     scrollPrev = scrolled;
   };
-
-  // Плавный переход по якорям
-
-  // document.querySelectorAll('a[href^="#"').forEach(link => {
-  //   link.addEventListener('click', function (evt) {
-  //     evt.preventDefault();
-
-  //     let href = this.getAttribute('href').substring(1);
-  //     const scrollTarget = document.getElementById(href);
-  //     // const topOffset = header.offsetHeight; // если не нужен отступ сверху равный высоте header
-  //     const topOffset = 0; // если не нужен отступ сверху 
-  //     const elementPosition = scrollTarget.getBoundingClientRect().top;
-  //     const offsetPosition = elementPosition - topOffset;
-
-  //     window.scrollBy({
-  //       top: offsetPosition,
-  //       behavior: 'smooth'
-  //     });
-  //   });
-  // });
-
-}
+};

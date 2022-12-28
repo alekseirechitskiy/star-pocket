@@ -1,7 +1,6 @@
 import $ from "jquery";
 
 export default function () {
-
   $('.form__checkbox-input-iconed').on('click', function (evt) {
     evt.preventDefault();
 

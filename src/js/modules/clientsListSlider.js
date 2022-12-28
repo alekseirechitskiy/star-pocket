@@ -12,4 +12,3 @@ export default function () {
     autoplaySpeed: 3000,
   });
 };
-

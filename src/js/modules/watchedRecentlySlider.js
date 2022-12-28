@@ -15,15 +15,12 @@ export default function () {
         breakpoint: 1440,
         settings: {
           slidesToShow: 3,
-          // variableWidth: true,
         }
       },
       {
         breakpoint: 1280,
         settings: {
           slidesToShow: 4,
-          // variableWidth: true,
-
         }
       },
       {
@@ -31,30 +28,8 @@ export default function () {
         settings: {
           slidesToShow: 2,
           arrows: false,
-
-          // variableWidth: false,
-
         }
       },
     ]
   });
-
-  // $('#tab-music-slider').slick({
-  //   infinite: true,
-  //   slidesToShow: 4,
-  //   slidesToScroll: 1,
-  //   arrows: true,
-  //   variableWidth: true
-  // });
-
-  // $('#tab-comedy-slider').slick({
-  //   infinite: true,
-  //   slidesToShow: 4,
-  //   slidesToScroll: 1,
-  //   arrows: true,
-  //   variableWidth: true
-  // });
-
-
 };
-

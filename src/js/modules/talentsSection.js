@@ -12,6 +12,4 @@ export default function () {
     $($(this).attr('href')).addClass('tabs-content__item--active');
     $('.tabs-slider').slick('setPosition');
   })
-
 };
-
