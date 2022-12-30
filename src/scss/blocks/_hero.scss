@@ -80,7 +80,7 @@
     line-height: 100px;
   }
 
-  @media #{$screen-1440}  {
+  @media #{$screen-1440} and (min-height: 860px) {
     font-size: 90px;
     line-height: 120px;
   }
@@ -188,7 +188,7 @@
     line-height: 85px;
   }
 
-  @media #{$screen-1440} {
+  @media #{$screen-1440} and (min-height: 860px) {
     font-size: 70px;
     line-height: 105px;
   }

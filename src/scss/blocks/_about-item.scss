@@ -1,6 +1,8 @@
 .about-item {
   box-sizing: border-box;
   display: flex;
+  background: $cod-gray;
+
 
   &:last-child {
     .about-item__text{
@@ -26,22 +28,24 @@
   font-size: 15px;
   line-height: 22px;
   color: $white;
-  background: $cod-gray;
   align-self: center;
   flex-shrink: 1;
   width: 100%;
   overflow: hidden;
   margin: 0;
+  flex-shrink: 0;
 
   @media #{$screen-768} {
     font-size: $font-size-normal;
     line-height: 26px;
     padding: 0 20px;
     margin-right: 20px;
+    width: 400px;
   }
 
   @media #{$screen-992} {
-    max-width: 454px;
+    flex: 1 0 auto;
+    width: 454px;
   }
 
   @media #{$screen-1280} {
@@ -57,20 +61,12 @@
 
 .about-item__image {
   display: none;
-  flex-shrink: 1;
   object-fit: cover;
-  filter: drop-shadow(0px 0px 100px #000000);
+  width: 100%;
+  overflow: hidden;
+  filter: drop-shadow(0px 0px 100px $black);
 
-  @media #{$screen-992} {
+  @media #{$screen-768} {
     display: block;
-    width: 40%;
-  }
-
-  @media #{$screen-1280} {
-    width: 55% ;
-  }
-
-  @media #{$screen-1440} {
-    width: 60% ;
   }
 }

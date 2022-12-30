@@ -3,9 +3,11 @@
   
   @media #{$screen-768} {
     padding-bottom: 120px;
+    padding-top: 30px;
   }
 
   @media #{$screen-1280} {
+    padding-top: 50px;
     padding-bottom: 150px;
   }
 
