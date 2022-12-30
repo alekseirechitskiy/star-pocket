@@ -30,6 +30,11 @@
   border-radius: 50%;
   background-color: transparent;
   cursor: pointer;
+  transition: opacity 0.3s;
+
+  &:hover {
+    opacity: 0.5;
+  }
 
   @media #{$screen-768} {
     width: 40px;
@@ -149,7 +154,10 @@
 }
 
 .calendar__button-book {
+  font-size: 15px;
+  line-height: 20px;
   padding: 10px 30px;
+  border-radius: 30px;
   background-color: $wild-sand;
   color: $electric-violet;
   cursor: pointer;
@@ -173,9 +181,15 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
+  transition: opacity 0.3s;
+
+  &:hover {
+    opacity: 0.5;
+  }
 
   @media #{$screen-768} {
     font-size: $font-size-large;
     line-height: 30px;
+    padding: 0;
   }
 }

@@ -50,6 +50,22 @@
   background-color: transparent;
   padding-left: 60px;
   padding-right: 60px;
+  position: relative;
+
+  @media #{$screen-768} {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  @media #{$screen-1024} {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  @media #{$screen-1280} {
+    margin-top: 0;
+    width: 100%;
+  }
 }
 
 .popup__search-button {

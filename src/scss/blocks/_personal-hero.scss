@@ -55,18 +55,20 @@
 
 .personal-hero__col-line {
   margin-bottom: 15px;
-  // gap: 15px;
   display: flex;
+
+  &:last-child{
+    margin-bottom: 0;
+  }
 
   @media #{$screen-768} {
     margin-bottom: 30px;
-    // gap: 30px;
   }
   
   &--top {
     .personal-hero__image-box {
       width: 100%;
-
+  
       &:first-child {
         flex: 1 1 100%;
         max-width: 100%;
@@ -121,6 +123,10 @@
   }
 }
 
+.personal-hero__image-box {
+  flex: 1 1 100%;
+}
+
 .personal-hero__image {
   display: block;
   height: 100%;
@@ -162,6 +168,11 @@
   background-position: center;
   border-radius: 50%;
   cursor: pointer;
+  transition: opacity 0.3s;
+
+  &:hover {
+    opacity: 0.5;
+  }
 
   @media #{$screen-768} {
     width: 80px;

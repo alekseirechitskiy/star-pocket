@@ -120,9 +120,12 @@
 }
 
 .personal-reviews__button {
+  background: $electric-violet;
+  border-radius: 30px; 
   padding: 10px 30px;
   font-size: 15px;
   line-height: 20px;
+  border: none;
   cursor: pointer;
 
   @media #{$screen-768} {

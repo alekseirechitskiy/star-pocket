@@ -1,5 +1,6 @@
 {
-    "name": "gulp-2022",
+    "homepage": "https://alekseirechitskiy.github.io/star-pocket",
+    "name": "star-pocket",
     "version": "1.0.0",
     "description": "Aleksei's build",
     "main": "gulpfile.js",
@@ -7,9 +8,8 @@
     "scripts": {
         "dev": "gulp",
         "build": "gulp build --build",
-        "zip": "gulp deployZIP --build",
-        "deploy": "gulp deployFTP --build",
-        "svgSprite": "gulp sprite"
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
     },
     "author": "Aleksei Rechitskiy",
     "license": "ISC",
@@ -58,6 +58,7 @@
     "dependencies": {
         "@splidejs/splide": "^4.1.4",
         "animate.css": "^4.1.1",
+        "gh-pages": "^4.0.0",
         "hammerjs": "^2.0.8",
         "ion-rangeslider": "^2.3.1",
         "jquery": "^3.6.1",

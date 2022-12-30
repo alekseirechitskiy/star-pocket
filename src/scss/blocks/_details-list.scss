@@ -65,6 +65,12 @@
 }
 
 .details-list__link {
+  transition: opacity 0.3s;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
   @media #{$screen-768} {
     font-size: $font-size-small;
     line-height: 20px;
