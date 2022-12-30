@@ -1,0 +1,14 @@
+<svg width="126" height="127" viewBox="0 0 126 127" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_b_1_163)">
+<path d="M63 126.046C28.2545 126.046 0 97.7911 0 63.0457C0 28.3002 28.2545 0.0456543 63 0.0456543C97.7455 0.0456543 126 28.3002 126 63.0457C126 97.7911 97.7455 126.046 63 126.046ZM55.2364 82.1366L78.1455 63.0457L55.2364 43.9547V82.1366Z" fill="white" fill-opacity="0.45"/>
+<path d="M54.7364 82.1366V83.2041L55.5564 82.5207L78.4655 63.4298L78.9265 63.0457L78.4655 62.6615L55.5564 43.5706L54.7364 42.8872V43.9547V82.1366ZM63 125.546C28.5307 125.546 0.5 97.515 0.5 63.0457C0.5 28.5763 28.5307 0.545654 63 0.545654C97.4693 0.545654 125.5 28.5763 125.5 63.0457C125.5 97.515 97.4693 125.546 63 125.546Z" stroke="white" stroke-opacity="0.45"/>
+</g>
+<defs>
+<filter id="filter0_b_1_163" x="-11" y="-10.9543" width="148" height="148" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="5.5"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1_163"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1_163" result="shape"/>
+</filter>
+</defs>
+</svg>
