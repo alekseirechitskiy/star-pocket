@@ -10,6 +10,14 @@
   max-width: 1580px;
   padding: 0 15px;
   margin: 0 auto;
+
+  @media #{$screen-768} {
+    padding: 0 50px;
+  }
+  
+  @media #{$screen-1440} {
+    padding: 0 15px;
+  }
 }
 
 .also__title {
@@ -33,5 +41,15 @@
   @media #{$screen-1440} {
     font-size: 80px;
     line-height: 120px;
+  }
+}
+
+.also__slider {
+  @media #{$screen-768} {
+    margin-right: -50px;
+  }
+
+  @media #{$screen-1440} {
+    margin-right: 0;
   }
 }

@@ -40,11 +40,23 @@
     right: 50px;
 
     @media #{$screen-768} {
-      right: 55px;
+      right: 105px;
     }
 
     @media #{$screen-1440} {
-      right: 60px;
+      right: 75px;
+    }
+  }
+
+  .slick-next {
+    right: 0;
+
+    @media #{$screen-768} {
+      right: 45px;
+    }
+
+    @media #{$screen-1440} {
+      right: 15px;
     }
   }
 }

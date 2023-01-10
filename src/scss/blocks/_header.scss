@@ -43,10 +43,26 @@
   margin: 0 auto;
   padding: 0 15px;
 
+  @media #{$screen-768} {
+    padding: 0 50px;
+  }
+  
+  @media #{$screen-1440} {
+    padding: 0 15px;
+  }
+
   &--wide {
     max-width: 1580px;
     padding: 0 15px;
     margin: 0 auto;
+
+    @media #{$screen-768} {
+      padding: 0 50px;
+    }
+  
+    @media #{$screen-1440} {
+      padding: 0 15px;
+    }
   }
 }
 

@@ -1,6 +1,14 @@
 .talents-tabs {
   overflow-x: scroll;
 
+  @media #{$screen-768} {
+    margin-right: -50px;
+  }
+
+  @media #{$screen-992} {
+    margin-right: 0;
+  }
+
   &::-webkit-scrollbar {
     width: 0;
   }

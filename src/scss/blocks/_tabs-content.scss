@@ -1,7 +1,12 @@
 .tabs-content {
   padding-left: 15px;
 
+  @media #{$screen-768} {
+    padding-left: 50px;
+  }
+
   @media #{$screen-1440} {
+    padding-left: 15px;
     margin-left: calc((100vw - 1445px) / 2);
   }
 }
