@@ -19,10 +19,15 @@ export function isWebp() {
 export function toggleFilters() {
   const htmlId = document.querySelector('.html').id;
   if (htmlId === 'talents') {
-    const filtesToggler = document.querySelector('.talents-choise__filter-button');
+    const filtersToggler = document.querySelector('.talents-choise__filter-button');
+    const filtersApplyer = document.querySelector('.filter__button');
     const ftiltersBlock = document.querySelector('.talents-choise__filters');
   
-    filtesToggler.addEventListener('click', () => {
+    filtersToggler.addEventListener('click', () => {
+      ftiltersBlock.classList.toggle('talents-choise__filters--open');
+    });
+    
+    filtersApplyer.addEventListener('click', () => {
       ftiltersBlock.classList.toggle('talents-choise__filters--open');
     });
   }

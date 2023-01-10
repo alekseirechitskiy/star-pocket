@@ -32,3 +32,17 @@
     top: 4px;
   }
 }
+
+.filter__button {
+  padding: 10px 40px;
+  font-size: $font-size-small;
+  display: block;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  background-color: $cardinal-pink;
+
+  @media #{$screen-768} {
+    display: none;
+  }
+}
