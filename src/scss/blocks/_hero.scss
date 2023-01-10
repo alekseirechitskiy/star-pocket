@@ -123,7 +123,16 @@
 .hero__numbers {
   display: none;
 
-  @media #{$screen-992} {
+  @media #{$screen-992} and (max-height: 859px) {
+    box-sizing: border-box;
+    max-width: 580px;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    padding-top: 110px;
+  }
+
+  @media #{$screen-992} and (min-height: 860px){
     box-sizing: border-box;
     max-width: 580px;
     display: flex;
