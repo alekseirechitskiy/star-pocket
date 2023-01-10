@@ -11,19 +11,23 @@
   align-items: flex-start;
   flex-direction: column;
 
-  @media #{$screen-768} {
-    flex-wrap: wrap;
+  @media #{$screen-992} {
+    // flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-between;
   }
 }
 
 .personal-about__info {
-  width: 100%;
+  // width: 100%;
   margin-bottom: 40px;
+  flex: 0 1 auto;
 
   @media #{$screen-768} {
     margin-right: 50px;
-    width: 574px;
+    // width: 574px;
+    // max-width: 574px;
+    width: 100%;
   }
 
   @media #{$screen-1440} {
@@ -41,7 +45,7 @@
 }
 
 .personal-about__text-box {
-  max-width: 574px;
+  // max-width: 574px;
   margin-bottom: 20px;
 
   @media #{$screen-768} {
@@ -171,14 +175,15 @@
   max-width: 100%;
 
   @media #{$screen-768} {
-    width: 600px;
+    // width: 500px;
     max-width: 100%;
-    flex: 0 0 600px;
+    flex: 0 0 auto;
   }
 
-  @media #{$screen-1440} {
+  @media #{$screen-1280} {
     width: 695px;
     max-width: auto;
     flex: 0 0 695px;
+    margin-top: 0;
   }
 }
