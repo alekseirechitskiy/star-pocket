@@ -51,6 +51,11 @@
     flex-direction: row;
     padding: 0;
   }
+
+  @media (min-width: 1921px) {
+    width: 1430px;
+    margin:0 auto;
+  }
 }
 
 .about__col {
@@ -66,6 +71,8 @@
     
     @media #{$screen-992} {
       width: 37%;
+      flex-basis: 37%;
+      flex-grow: 0;
       height: auto;
       flex-shrink: 1;
       margin-bottom: 0;
@@ -75,7 +82,7 @@
   }
 
   &:last-child {
-    // flex-grow: 1;
+    flex-grow: 1;
     margin-right: 0;
   }
   // &:first-child {
