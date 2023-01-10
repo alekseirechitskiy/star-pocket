@@ -137,6 +137,46 @@
       border-radius: 16px;
     }
   }
+
+  &:nth-child(3){
+    margin-top: -5px;
+
+    @media (min-width: 469px) {
+      margin-top: 0;
+    }
+    
+    &::before{
+      top: 0;
+
+      @media (min-width: 469px){
+        top: -7px;
+      }
+    }
+  }
+
+  &:nth-child(4) {
+    margin-top: -5px;
+
+    @media (min-width: 611px) {
+      margin-top: 0;
+    }
+
+    @media #{$screen-768} {
+      margin-top: -7px;
+    }
+    
+    &::before{
+      top: 0;
+
+      @media (min-width: 611px) {
+        top: -7px;
+      }
+
+      @media #{$screen-768} {
+        top: 0px;
+      }
+    }
+  }
 }
 
 .join__form-box {
