@@ -169,8 +169,12 @@
   color: $electric-violet;
   cursor: pointer;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 20px;
+
+  @media #{$screen-992} {
+    padding: 13px 40px;
+    font-size: $font-size-medium;
+    line-height: 26px;
+  }
 
   @media #{$screen-1280} {
     padding: 15px 50px;
@@ -192,6 +196,11 @@
 
   &:hover {
     opacity: 0.5;
+  }
+
+  @media #{$screen-992} {
+    font-size: $font-size-medium;
+    line-height: 26px;
   }
 
   @media #{$screen-1280} {
