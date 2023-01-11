@@ -146,7 +146,7 @@
   &:nth-child(3){
     margin-top: -5px;
 
-    @media (min-width: 469px) {
+    @media #{$screen-469} {
       margin-top: 0;
     }
 
@@ -157,7 +157,7 @@
     &::before{
       top: 0;
 
-      @media (min-width: 469px){
+      @media #{$screen-469} {
         top: -7px;
       }
 
@@ -170,7 +170,7 @@
   &:nth-child(4) {
     margin-top: -7px;
 
-    @media (min-width: 611px) {
+    @media #{$screen-611} {
       margin-top: 0;
     }
 
@@ -181,7 +181,7 @@
     &::before{
       top: 0;
 
-      @media (min-width: 611px) {
+      @media #{$screen-611} {
         top: -7px;
       }
 

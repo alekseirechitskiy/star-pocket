@@ -62,12 +62,17 @@
 
 .reviews-slide__text {
   background-color: $cardinal-pink;
-  padding: 40px 30px 50px;
+  padding: 30px 28px 40px;
   font-size: $font-size-small;
-  line-height: 26px;
+  line-height: 22px;
   color: $white;
   border-radius: 30px;
   position: relative;
+
+  @media #{$screen-370} {
+    padding: 40px 30px 50px;
+    line-height: 26px;
+  }
 
   @media #{$screen-768} {
     font-size: $font-size-large;
