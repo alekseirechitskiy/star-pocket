@@ -121,7 +121,7 @@
     align-items: center;
     justify-content: center;
 
-    @media #{$screen-1280} {
+    @media #{$screen-992} {
       width: 40px;
       height: 40px;
       border-radius: 50%;
@@ -130,6 +130,12 @@
       &:hover {
         background-color: $electric-violet;
       }
+    }
+
+    @media #{$screen-1280} {
+      // width: 40px;
+      // height: 40px;
+      // border-radius: 50%;
     }
   }
 
@@ -141,12 +147,12 @@
     color: $electric-violet;
     transition: all 0.1s;
 
-    &:hover {
-      p {
-        background-color: transparent;
-        color: $electric-violet;
-      }
-    }
+    // &:hover {
+    //   p {
+    //     background-color: transparent;
+    //     color: $electric-violet;
+    //   }
+    // }
 
     // p {
     //   &:hover {
@@ -159,6 +165,13 @@
 
 .calendar__day.calendar__day--booked {
   cursor: default;
+
+  p {
+    &:hover {
+      background-color: transparent;
+      color: $electric-violet;
+    }
+  }
 }
 
 .calendar__bottom{
