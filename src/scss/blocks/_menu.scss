@@ -20,7 +20,7 @@
   background: $custom-gradient;
   transform: translateY(-200%);
   transition: all .3s;
-  overflow: scroll;
+  // overflow: scroll;
 
   @media #{$screen-768} {
     padding-top: 0;
