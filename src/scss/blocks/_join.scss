@@ -88,10 +88,6 @@
   list-style-position: outside;
   counter-reset: item1;
   width: 100%;
-
-  @media #{$screen-768} {
-    // width: 609px;
-  }
 }
 
 .join__list-item {

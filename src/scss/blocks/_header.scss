@@ -1,14 +1,9 @@
 .header {
   z-index: 99999;
-  // position: static;
   flex-shrink: 0;
   left: 0;
   right: 0;
-
-  // @media #{$screen-768} {
-  //   position: absolute;
-  // }
-
+  
   &--transparent {
     background: transparent;
   }
