@@ -141,12 +141,19 @@
     color: $electric-violet;
     transition: all 0.1s;
 
-    p {
-      &:hover {
+    &:hover {
+      p {
         background-color: transparent;
-        cursor: default;
+        color: $electric-violet;
       }
     }
+
+    // p {
+    //   &:hover {
+    //     background-color: transparent;
+    //     cursor: default;
+    //   }
+    // }
   }
 }
 

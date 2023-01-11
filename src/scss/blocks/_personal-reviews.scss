@@ -127,6 +127,11 @@
   line-height: 20px;
   border: none;
   cursor: pointer;
+  transition: opacity 0.3s;
+
+  &:hover {
+    opacity: 0.5;
+  }
 
   @media #{$screen-768} {
     padding: 15px 50px;
