@@ -170,6 +170,12 @@
   cursor: pointer;
   font-weight: 400;
 
+  @media #{$screen-500} {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 10px 30px;
+  }
+
   @media #{$screen-992} {
     padding: 13px 40px;
     font-size: $font-size-medium;
